@@ -18,17 +18,19 @@ if os.path.exists(".env"):
 USERNAME = os.getenv("GH_USERNAME")
 TOKEN = os.getenv("GH_TOKEN")
 
-headers = {"Accept": "application/vnd.github+json"}
-if TOKEN:
-    headers["Authorization"] = f"Bearer {TOKEN}"
-
 all_repos = []
 
 if TOKEN:
-    print("[+] GITHUB_TOKEN found. Attempting to fetch user repositories via '/user/repos'...")
+    print(f"[+] GITHUB_TOKEN found. Attempting to fetch public and private repositories for '{USERNAME}'...")
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {TOKEN}"
+    }
     url = "https://api.github.com/user/repos"
     params = {"per_page": 100, "affiliation": "owner"}
     page = 1
+    success_with_token = False
+    
     try:
         while True:
             current_params = params.copy()
@@ -38,14 +40,26 @@ if TOKEN:
             repos = response.json()
             if not repos:
                 break
-            all_repos.extend(repos)
+            
+            # Filter to ensure we only get repos belonging to USERNAME
+            for r in repos:
+                if r.get("owner", {}).get("login", "").lower() == USERNAME.lower():
+                    all_repos.append(r)
+                    
             page += 1
-        print(f"[+] Successfully fetched {len(all_repos)} repository/repositories via '/user/repos'.")
+            
+        success_with_token = True
+        print(f"[+] Successfully fetched {len(all_repos)} repository/repositories using token.")
     except Exception as e:
-        print(f"[!] Authenticated '/user/repos' endpoint failed ({e}). Falling back to public repos for '{USERNAME}'...")
-        all_repos = []
+        print(f"[!] Token authentication failed or is invalid: {e}")
+        success_with_token = False
 
-if not all_repos:
+    if not success_with_token:
+        print(f"[-] Falling back to fetching public repositories for '{USERNAME}' without token...")
+        TOKEN = None  # Clear token to trigger the fallback
+
+if not TOKEN:
+    headers = {"Accept": "application/vnd.github+json"}
     print(f"[-] Fetching public repositories for user '{USERNAME}'...")
     url = f"https://api.github.com/users/{USERNAME}/repos"
     params = {"per_page": 100, "type": "owner"}
@@ -61,6 +75,7 @@ if not all_repos:
                 break
             all_repos.extend(repos)
             page += 1
+        print(f"[+] Successfully fetched {len(all_repos)} public repository/repositories.")
     except Exception as e:
         print(f"[!] Failed to fetch public repositories for '{USERNAME}': {e}")
 

@@ -14,7 +14,6 @@ jobs:
       - name: Checkout repository code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -48,6 +47,9 @@ jobs:
         env:
           GH_USERNAME: ${{ secrets.GH_USERNAME }}
         run: |
+          if [ -z "$GH_USERNAME" ]; then
+            GH_USERNAME="${{ github.actor }}"
+          fi
           echo "username=$GH_USERNAME" >> $GITHUB_OUTPUT
           echo "Determined Username: $GH_USERNAME"
 

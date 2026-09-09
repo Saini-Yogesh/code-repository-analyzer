@@ -15,8 +15,8 @@ if os.path.exists(".env"):
     except Exception as e:
         print(f"[!] Warning: Failed to load .env file: {e}")
 
-USERNAME = os.getenv("GITHUB_USERNAME")
-TOKEN = os.getenv("GITHUB_TOKEN")
+USERNAME = os.getenv("GH_USERNAME")
+TOKEN = os.getenv("GH_TOKEN")
 
 headers = {"Accept": "application/vnd.github+json"}
 if TOKEN:

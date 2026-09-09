@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -32,28 +32,28 @@ jobs:
 
       - name: Fetch all repository URLs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
         run: python fetch_all_repo.py
 
       - name: Run Repo Analysis Tool
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           mkdir -p outputs
-          python Repo_analysis_tool.py --batch clone_urls.txt --github-token "$GITHUB_TOKEN" --output-dir ./outputs
+          python Repo_analysis_tool.py --batch clone_urls.txt --github-token "$GH_TOKEN" --output-dir ./outputs
 
       - name: Fetch username from API or fallback
         id: get_username
         env:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
         run: |
-          echo "username=$GITHUB_USERNAME" >> $GITHUB_OUTPUT
-          echo "Determined Username: $GITHUB_USERNAME"
+          echo "username=$GH_USERNAME" >> $GITHUB_OUTPUT
+          echo "Determined Username: $GH_USERNAME"
 
       - name: Commit and Push Outputs to New Branch 'output-of-<username>[-N]'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           UNAME: ${{ steps.get_username.outputs.username }}
         run: |
           git config user.name "github-actions[bot]"

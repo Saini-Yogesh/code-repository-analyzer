@@ -1,0 +1,388 @@
+{
+  "repo": "E-Commerce-Store",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 9,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 5,
+      "last_update": "2024-12-31",
+      "first_commit": "2024-12-27",
+      "active_span_months": 0.1,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 8
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 5892,
+      "breakdown": {
+        "code": 5892,
+        "comment": 55,
+        "blank": 820,
+        "nFiles": 88
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "breakdown": {
+        "JSX": {
+          "loc": 3461,
+          "files": 40,
+          "pct": 58.74
+        },
+        "JavaScript": {
+          "loc": 1522,
+          "files": 36,
+          "pct": 25.83
+        },
+        "CSS": {
+          "loc": 896,
+          "files": 11,
+          "pct": 15.21
+        },
+        "HTML": {
+          "loc": 13,
+          "files": 1,
+          "pct": 0.22
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 37188,
+      "lexical": 40083
+    },
+    "duplication": {
+      "token_weighted": 0.0017,
+      "duplicate_tokens": 64,
+      "exact_duplicate_files": 0,
+      "similar_clusters": [
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/AdminRoute.jsx",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/PrivateRoute.jsx"
+        ]
+      ]
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 90,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 90,
+        ">2yr": 0
+      },
+      "median_age_months": 20.3
+    },
+    "secrets": {
+      "files_scanned": 76,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 21,
+      "files": 90,
+      "extensions": {
+        ".unknown": 2,
+        ".js": 36,
+        ".html": 1,
+        ".css": 11,
+        ".jsx": 40
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0946,
+      "confidence": "high",
+      "signals": {
+        "uniformity": 0.5431,
+        "duplication": 0.0043,
+        "similarity": 0.0263,
+        "cluster_density": 0.0263,
+        "naming": 0.0,
+        "smoothness": 0.5234
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/index.js": 0.1488,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/routes/orderRoutes.js": 0.1332,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/routes/categoryRoutes.js": 0.0762,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/routes/productRoutes.js": 0.1392,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/routes/uploadRoutes.js": 0.2028,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/routes/userRoutes.js": 0.1152,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/middlewares/authMiddleware.js": 0.123,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/middlewares/checkId.js": 0.036,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/middlewares/asyncHandler.js": 0.0324,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/utils/createToken.js": 0.0702,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/config/db.js": 0.0432,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/controllers/userController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/controllers/orderController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/controllers/productController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/controllers/categoryController.js": 0.2856,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/models/orderModel.js": 0.2574,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/models/productModel.js": 0.1686,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/models/categoryModel.js": 0.0342,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/backend/models/userModel.js": 0.0678,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/postcss.config.js": 0.0126,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/eslint.config.js": 0.1476,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/tailwind.config.js": 0.0318,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/vite.config.js": 0.0474,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/App.jsx": 0.072,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/main.jsx": 0.4068,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/Utils/localStorage.js": 0.102,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/Utils/cartUtils.js": 0.1206,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Home.jsx": 0.183,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Shop.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Cart.jsx": 0.417,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Orders/Shipping.jsx": 0.5118,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Orders/PlaceOrder.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Orders/Order.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/Ratings.jsx": 0.1416,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/ProductCard.jsx": 0.4356,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/Products.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/SmallProduct.jsx": 0.1014,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/HeartIcon.jsx": 0.189,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/ProductCarousel.jsx": 0.3924,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/ProductTabs.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/ProductDetails.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/Product.jsx": 0.18,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Products/Favorites.jsx": 0.0846,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/AdminMenu.jsx": 0.4608,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/CategoryList.jsx": 0.4992,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/OrderList.jsx": 0.3894,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/AllProducts.jsx": 0.4194,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/AdminRoute.jsx": 0.445,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/ProductList.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/UserList.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/AdminDashboard.jsx": 0.5646,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Admin/ProductUpdate.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Auth/Navigation.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Auth/Login.jsx": 0.3606,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/Auth/Register.jsx": 0.4878,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/User/UserOrder.jsx": 0.3738,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/pages/User/Profile.jsx": 0.4938,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/constants.js": 0.0384,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/store.js": 0.1182,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/features/shopSlice.js": 0.1224,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/features/cartSlice.js": 0.2316,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/features/authSlice.js": 0.1038,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/features/favoriteSlice.js": 0.1146,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/api/orderApiSlice.js": 0.2616,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/api/apiSlice.js": 0.0462,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/api/categoryApiSlice.js": 0.1278,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/api/usersApiSlice.js": 0.2436,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/redux/api/productApiSlice.js": 0.363,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/Footer.jsx": 0.1116,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/PrivateRoute.jsx": 0.4384,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/Header.jsx": 0.1182,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/Loader.jsx": 0.0282,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/Modal.jsx": 0.0888,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/Message.jsx": 0.063,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/CategoryForm.jsx": 0.1572,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/E-Commerce-Store/frontend/src/components/ProgressSteps.jsx": 0.1956
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "MongoDB"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 1882,
+      "Markdown": 2582,
+      "Express (JavaScript)": 5960,
+      "Next.js (JavaScript)": 1294,
+      "JavaScript": 34586,
+      "React (JavaScript)": 2550,
+      "HTML": 366,
+      "CSS": 15386,
+      "React (JSX)": 118097,
+      "JSX": 4296
+    },
+    "docs": {
+      "description": "A feature-rich e-commerce platform built using modern web technologies to provide a seamless online shopping experience. The platform includes user authentication, product browsing, payment integratio...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Detected in README"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 2.4,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.06,
+        "dev_span_months": 0.0083,
+        "contributors": 0.5,
+        "loc": 0.5099,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.06,
+    "stage4_seconds": 0.4,
+    "stage5_seconds": 0.02,
+    "total_seconds": 6.29
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/E-Commerce-Store",
+    "owner": "Saini-Yogesh",
+    "description": "E-Commerce Website is a modern shopping platform built with React, Node.js, Express.js, and MongoDB. It features user authentication, product browsing, shopping cart, secure payments (PayPal/Stripe), and an admin dashboard for managing inventory and orders. With a responsive design and seamless experience, it ensures smooth transactions. \ud83d\ude80",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-11-28",
+    "pushed_at": "2024-12-31",
+    "size_kb": 1060,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "E-Commerce-Store",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-12-27",
+    "last_commit_date": "2024-12-31",
+    "loc_code": 5892,
+    "loc_comment": 55,
+    "loc_blank": 820,
+    "loc_files": 88,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 9,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 5,
+    "development_span_months": 0.1,
+    "commits_per_month": "90.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 37188,
+    "lexical_token": 40083,
+    "duplication_weighted_percent": "0.2%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "9.5%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "MongoDB",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 2.4,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (91.4%) | CSS (8.4%)",
+    "frameworks_percentage_bytes(>5%)": "React (94.3%)",
+    "total_time_seconds": 6.29,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Detected in README",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-11-28",
+    "loc_verified": 5892,
+    "tokenizer_method": "N/A"
+  }
+}

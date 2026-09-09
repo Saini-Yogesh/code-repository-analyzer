@@ -1,0 +1,327 @@
+{
+  "repo": "Mongoose",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 35,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 34,
+      "last_update": "2024-10-21",
+      "first_commit": "2024-10-12",
+      "active_span_months": 0.3,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 34
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 543,
+      "breakdown": {
+        "code": 543,
+        "comment": 136,
+        "blank": 61,
+        "nFiles": 13
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "JavaScript",
+        "EJS",
+        "CSS"
+      ],
+      "list": [
+        "JavaScript",
+        "EJS",
+        "CSS"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 404,
+          "files": 8,
+          "pct": 74.4
+        },
+        "EJS": {
+          "loc": 104,
+          "files": 4,
+          "pct": 19.15
+        },
+        "CSS": {
+          "loc": 35,
+          "files": 1,
+          "pct": 6.45
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 3621,
+      "lexical": 4082
+    },
+    "duplication": {
+      "token_weighted": 0.0102,
+      "duplicate_tokens": 37,
+      "exact_duplicate_files": 0,
+      "similar_clusters": [
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/middlewares/ExpressError.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/ExpressError.js"
+        ]
+      ]
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 15,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 15,
+        ">2yr": 0
+      },
+      "median_age_months": 22.8
+    },
+    "secrets": {
+      "files_scanned": 8,
+      "findings_count": 4,
+      "findings": [
+        {
+          "file": "index.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/index.js",
+          "type": "DB Connection String"
+        },
+        {
+          "file": "books.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/books.js",
+          "type": "DB Connection String"
+        },
+        {
+          "file": "index.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/index.js",
+          "type": "DB Connection String"
+        },
+        {
+          "file": "init.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/init.js",
+          "type": "DB Connection String"
+        }
+      ],
+      "clean": false,
+      "risk_level": "medium"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 5,
+      "files": 15,
+      "extensions": {
+        ".js": 8,
+        ".unknown": 2,
+        ".ejs": 4,
+        ".css": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.2032,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.5533,
+        "duplication": 0.0255,
+        "similarity": 0.25,
+        "cluster_density": 0.25,
+        "naming": 0.0,
+        "smoothness": 0.5688
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/index.js": 0.3486,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/books.js": 0.249,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/middlewares/ExpressError.js": 0.4222,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/middlewares/index.js": 0.3708,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/ExpressError.js": 0.4222,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/index.js": 0.5652,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/init.js": 0.5328,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mongoose/mongo with express/models/chat.js": 0.0618
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "express"
+      ],
+      "code_imports": [
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "MongoDB"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JavaScript": 6534,
+      "JSON": 995,
+      "Markdown": 20,
+      "Express (JavaScript)": 3819,
+      "Next.js (JavaScript)": 2175,
+      "CSS": 633
+    },
+    "docs": {
+      "description": "Mongoose",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.86,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.2333,
+        "dev_span_months": 0.025,
+        "contributors": 0.5,
+        "loc": 0.0543,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.11,
+    "stage5_seconds": 0.0,
+    "total_seconds": 6.16
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Mongoose",
+    "owner": "Saini-Yogesh",
+    "description": "Mongoose",
+    "is_private": true,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-10-12",
+    "pushed_at": "2024-10-21",
+    "size_kb": 258,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "private"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Mongoose",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-10-12",
+    "last_commit_date": "2024-10-21",
+    "loc_code": 543,
+    "loc_comment": 136,
+    "loc_blank": 61,
+    "loc_files": 13,
+    "lang_count": 3,
+    "languages": "JavaScript | EJS | CSS",
+    "languages_frontend": "CSS | JavaScript",
+    "languages_backend": "",
+    "commits": 35,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 34,
+    "development_span_months": 0.3,
+    "commits_per_month": "116.7 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 3621,
+    "lexical_token": 4082,
+    "duplication_weighted_percent": "1.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "20.3%",
+    "frameworks": "package.json: express | code_imports: Express",
+    "framework_frontend": "",
+    "framework_backend": "Express",
+    "databases_used": "MongoDB",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Review Required (4)",
+    "documentation_quality": "Low",
+    "repo_rating_score": 1.86,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (95.2%)",
+    "frameworks_percentage_bytes(>5%)": "Express (63.7%) | Next.js (36.3%)",
+    "total_time_seconds": 6.16,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-10-12",
+    "loc_verified": 543,
+    "tokenizer_method": "N/A"
+  }
+}

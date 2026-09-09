@@ -1,0 +1,276 @@
+{
+  "repo": "SQL-data-warehouse-project",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 2,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 1,
+      "last_update": "2025-10-21",
+      "first_commit": "2025-10-21",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 2
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 995,
+      "breakdown": {
+        "code": 995,
+        "comment": 349,
+        "blank": 125,
+        "nFiles": 19
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 1,
+      "core_count": 0,
+      "core_list": [],
+      "list": [
+        "SQL"
+      ],
+      "breakdown": {
+        "SQL": {
+          "loc": 995,
+          "files": 19,
+          "pct": 100.0
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 11052,
+      "lexical": 12509
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 22,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 22,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 10.6
+    },
+    "secrets": {
+      "files_scanned": 19,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 10,
+      "files": 22,
+      "extensions": {
+        ".unknown": 3,
+        ".sql": 19
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.2004,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6694,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 1.0,
+        "smoothness": 0.5115
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/script/init_database.sql": 0.1368,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/script/gold/gold_views.sql": 0.4596,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/script/silver/ddl_siilver.sql": 0.3936,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/script/silver/load_silver.sql": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/script/bronze/ddl_bronze.sql": 0.3486,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/script/bronze/data_load_bronze.sql": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/eda_script/ranking_analysis.sql": 0.3036,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/eda_script/01_database_exploration.sql": 0.0918,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/eda_script/03_dimensions_exploration.sql": 0.0666,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/eda_script/measures_exploration.sql": 0.2202,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/eda_script/magnitude_analysis.sql": 0.2556,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/eda_script/02_date_range_exploration.sql": 0.1164,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/03_customer_reports.sql": 0.4002,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/04_data_segmentation.sql": 0.2844,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/06_performance_analysis.sql": 0.2808,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/02_cumulative_analysis.sql": 0.1176,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/07_products_report.sql": 0.4188,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/01_change_over_time_analysis.sql": 0.2118,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/SQL-data-warehouse-project/analytics_script/data_analysis/05_part_to_whole_analysis.sql": 0.1206
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [
+        "Sql (Schema Found)"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "Markdown": 4673,
+      "SQL": 48188
+    },
+    "docs": {
+      "description": "Welcome to the Data Warehouse and Analytics Project repository! \ud83d\ude80",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 1.1,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0133,
+        "dev_span_months": 0.0,
+        "contributors": 0.25,
+        "loc": 0.0995,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.04,
+    "stage4_seconds": 0.31,
+    "stage5_seconds": 0.01,
+    "total_seconds": 5.69
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/SQL-data-warehouse-project",
+    "owner": "Saini-Yogesh",
+    "description": "Building a modern data warehouse with MS SQL Server, including ETL processes, data modeling, Exploratory data analysis on the database and analytics.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2025-10-21",
+    "pushed_at": "2025-10-21",
+    "size_kb": 24,
+    "license": null,
+    "language": "TSQL",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "SQL-data-warehouse-project",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2025-10-21",
+    "last_commit_date": "2025-10-21",
+    "loc_code": 995,
+    "loc_comment": 349,
+    "loc_blank": 125,
+    "loc_files": 19,
+    "lang_count": 0,
+    "languages": "",
+    "languages_frontend": "",
+    "languages_backend": "",
+    "commits": 2,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 1,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 11052,
+    "lexical_token": 12509,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "20.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "Sql (Schema Found)",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.1,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "N/A",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 5.69,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2025-10-21",
+    "loc_verified": 995,
+    "tokenizer_method": "N/A"
+  }
+}

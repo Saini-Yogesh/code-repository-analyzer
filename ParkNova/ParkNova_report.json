@@ -1,0 +1,367 @@
+{
+  "repo": "ParkNova",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 27,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 11,
+      "last_update": "2026-06-21",
+      "first_commit": "2026-06-18",
+      "active_span_months": 0.1,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 26
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 6859,
+      "breakdown": {
+        "code": 6859,
+        "comment": 257,
+        "blank": 791,
+        "nFiles": 59
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 5,
+      "core_count": 4,
+      "core_list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "SQL",
+        "HTML"
+      ],
+      "breakdown": {
+        "JSX": {
+          "loc": 3401,
+          "files": 15,
+          "pct": 49.58
+        },
+        "JavaScript": {
+          "loc": 1868,
+          "files": 33,
+          "pct": 27.23
+        },
+        "CSS": {
+          "loc": 1235,
+          "files": 7,
+          "pct": 18.01
+        },
+        "SQL": {
+          "loc": 291,
+          "files": 3,
+          "pct": 4.24
+        },
+        "HTML": {
+          "loc": 64,
+          "files": 1,
+          "pct": 0.93
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 42869,
+      "lexical": 43803
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 62,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 62,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 2.7
+    },
+    "secrets": {
+      "files_scanned": 51,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 20,
+      "files": 62,
+      "extensions": {
+        ".unknown": 3,
+        ".js": 33,
+        ".sql": 3,
+        ".html": 1,
+        ".css": 7,
+        ".jsx": 15
+      },
+      "test_file_count": 1
+    },
+    "ai_detection": {
+      "repo_score": 0.0816,
+      "confidence": "high",
+      "signals": {
+        "uniformity": 0.5048,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0588,
+        "smoothness": 0.4585
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/test_categories.js": 0.0636,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/index.js": 0.1194,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/app.js": 0.372,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/createAdmin.js": 0.0606,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/sockets/socketHandler.js": 0.072,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/dashboardRoutes.js": 0.0324,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/sessionRoutes.js": 0.0552,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/authRoutes.js": 0.0588,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/pricingRoutes.js": 0.0558,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/enterpriseRoutes.js": 0.075,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/slotRoutes.js": 0.066,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/analyticsRoutes.js": 0.0552,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/locationRoutes.js": 0.0618,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/routes/userRoutes.js": 0.1026,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/database/dummy_data.sql": 0.534,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/database/schema.sql": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/database/enterprise_migrations.sql": 0.4806,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/utils/responseFormatter.js": 0.066,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/utils/logger.js": 0.0828,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/utils/generateToken.js": 0.0618,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/utils/password.js": 0.045,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/config/supabase.js": 0.0942,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/enterpriseController.js": 0.378,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/locationController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/userController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/dashboardController.js": 0.4626,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/analyticsController.js": 0.5088,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/authController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/slotController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/pricingController.js": 0.4704,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/controllers/sessionController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/middleware/authMiddleware.js": 0.2256,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/backend/middleware/errorMiddleware.js": 0.0762,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/eslint.config.js": 0.0828,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/vite.config.js": 0.1572,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/App.jsx": 0.5964,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/main.jsx": 0.045,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/context/AuthContext.jsx": 0.3192,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/api/axios.js": 0.2244,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/Landing.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/Login.jsx": 0.3354,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/Register.jsx": 0.3852,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/worker/Dashboard.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/Locations.jsx": 0.576,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/Pricing.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/Workers.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/EnterpriseDashboard.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/Slots.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/Dashboard.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/pages/admin/components/AdminLayout.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ParkNova/frontend/src/components/ChangePasswordModal.jsx": 0.3288
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "Sql (Schema Found)",
+        "Supabase"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "Markdown": 25945,
+      "JSON": 2562,
+      "JavaScript": 5518,
+      "Express (JavaScript)": 7779,
+      "SQL": 13874,
+      "Next.js (JavaScript)": 49061,
+      "React (JavaScript)": 1624,
+      "HTML": 3057,
+      "XML": 824,
+      "CSS": 25419,
+      "React (JSX)": 117685
+    },
+    "docs": {
+      "description": "ParkNova is a comprehensive, enterprise-grade Parking Management System designed to handle multiple parking locations, diverse vehicle categories, dynamic pricing rules, and real-time analytics. It pr...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Detected in README"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 2
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 3.68,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.18,
+        "dev_span_months": 0.0083,
+        "contributors": 0.5,
+        "loc": 0.5207,
+        "has_tests": 1.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.025,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.07,
+    "stage4_seconds": 0.5,
+    "stage5_seconds": 0.02,
+    "total_seconds": 6.48
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/ParkNova",
+    "owner": "Saini-Yogesh",
+    "description": "ParkNova is an intelligent, enterprise-grade parking management system featuring dynamic pricing, multi-tenant locations, and real-time revenue analytics.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-06-18",
+    "pushed_at": "2026-06-21",
+    "size_kb": 1928,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "ParkNova",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-06-18",
+    "last_commit_date": "2026-06-21",
+    "loc_code": 6859,
+    "loc_comment": 257,
+    "loc_blank": 791,
+    "loc_files": 59,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 27,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 11,
+    "development_span_months": 0.1,
+    "commits_per_month": "270.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 42869,
+    "lexical_token": 43803,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "8.2%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "Sql (Schema Found) | Supabase",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 3.68,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (86.4%) | CSS (12.1%)",
+    "frameworks_percentage_bytes(>5%)": "React (67.7%) | Next.js (27.9%)",
+    "total_time_seconds": 6.48,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Detected in README",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-06-18",
+    "loc_verified": 6859,
+    "tokenizer_method": "N/A"
+  }
+}

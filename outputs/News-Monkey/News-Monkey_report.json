@@ -1,0 +1,298 @@
+{
+  "repo": "News-Monkey",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 9,
+      "unique_contributors": 2,
+      "branch_count": 2,
+      "meaningful_commit_count": 3,
+      "last_update": "2024-10-16",
+      "first_commit": "2024-06-20",
+      "active_span_months": 3.8,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 1
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 11
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 419,
+      "breakdown": {
+        "code": 419,
+        "comment": 24,
+        "blank": 32,
+        "nFiles": 8
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "JavaScript",
+        "HTML"
+      ],
+      "list": [
+        "JavaScript",
+        "HTML"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 388,
+          "files": 7,
+          "pct": 92.6
+        },
+        "HTML": {
+          "loc": 31,
+          "files": 1,
+          "pct": 7.4
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 2806,
+      "lexical": 3049
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 11,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 81.8,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 2,
+        ">2yr": 9
+      },
+      "median_age_months": 26.4
+    },
+    "secrets": {
+      "files_scanned": 7,
+      "findings_count": 1,
+      "findings": [
+        {
+          "file": "App.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/App.js",
+          "type": "Generic API Key"
+        }
+      ],
+      "clean": false,
+      "risk_level": "medium"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 3,
+      "files": 11,
+      "extensions": {
+        ".unknown": 1,
+        ".html": 1,
+        ".css": 2,
+        ".js": 7
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0901,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.6006,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.6014
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/App.js": 0.2274,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/index.js": 0.0744,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/components/News2.js": 0.4908,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/components/Navbar.js": 0.228,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/components/Spinner.js": 0.0354,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/components/News.js": 0.4452,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/News-Monkey/src/components/NewsItems.js": 0.1824
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react"
+      ],
+      "code_imports": [
+        "React"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 18150,
+      "Markdown": 3359,
+      "HTML": 2274,
+      "CSS": 0,
+      "React (JavaScript)": 9385,
+      "Next.js (JavaScript)": 3375
+    },
+    "docs": {
+      "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.93,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.06,
+        "dev_span_months": 0.3167,
+        "contributors": 0.5,
+        "loc": 0.0419,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.11,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.72
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/News-Monkey",
+    "owner": "Saini-Yogesh",
+    "description": "Requests from the browser are not allowed on the Developer plan, except from localhost.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-06-25",
+    "pushed_at": "2024-10-16",
+    "size_kb": 1297,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "News-Monkey",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-06-20",
+    "last_commit_date": "2024-10-16",
+    "loc_code": 419,
+    "loc_comment": 24,
+    "loc_blank": 32,
+    "loc_files": 8,
+    "lang_count": 2,
+    "languages": "JavaScript | HTML",
+    "languages_frontend": "HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 9,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, Yogesh Saini",
+    "branch_count": 2,
+    "meaningful_commit_count": 3,
+    "development_span_months": 3.8,
+    "commits_per_month": "2.4 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 2806,
+    "lexical_token": 3049,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "9.0%",
+    "frameworks": "package.json: react | code_imports: React",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Review Required (1)",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.93,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (84.9%) | HTML (15.1%)",
+    "frameworks_percentage_bytes(>5%)": "React (73.6%) | Next.js (26.4%)",
+    "total_time_seconds": 5.72,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-06-25",
+    "loc_verified": 419,
+    "tokenizer_method": "N/A"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "repo": "rajasthanconnect",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 49,
+      "unique_contributors": 3,
+      "branch_count": 1,
+      "meaningful_commit_count": 37,
+      "last_update": "2026-07-19",
+      "first_commit": "2026-06-25",
+      "active_span_months": 0.8,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 2
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 46
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 2
+        },
+        {
+          "name": "Vercel",
+          "email": "vercel[bot]@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 3,
+      "source": "git"
+    },
+    "loc": {
+      "value": 24846,
+      "breakdown": {
+        "code": 24846,
+        "comment": 805,
+        "blank": 2986,
+        "nFiles": 200
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 6,
+      "core_count": 4,
+      "core_list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "SQL",
+        "HTML",
+        "DOS Batch"
+      ],
+      "breakdown": {
+        "CSS": {
+          "loc": 9669,
+          "files": 51,
+          "pct": 38.92
+        },
+        "JSX": {
+          "loc": 8258,
+          "files": 77,
+          "pct": 33.24
+        },
+        "JavaScript": {
+          "loc": 6197,
+          "files": 65,
+          "pct": 24.94
+        },
+        "SQL": {
+          "loc": 487,
+          "files": 4,
+          "pct": 1.96
+        },
+        "HTML": {
+          "loc": 130,
+          "files": 1,
+          "pct": 0.52
+        },
+        "DOS Batch": {
+          "loc": 105,
+          "files": 2,
+          "pct": 0.42
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 151540,
+      "lexical": 157068
+    },
+    "duplication": {
+      "token_weighted": 0.0035,
+      "duplicate_tokens": 525,
+      "exact_duplicate_files": 0,
+      "similar_clusters": [
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/languages.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/districts.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/dynasties.js"
+        ]
+      ]
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 203,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 203,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 2.2
+    },
+    "secrets": {
+      "files_scanned": 148,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 85,
+      "files": 203,
+      "extensions": {
+        ".js": 63,
+        ".html": 1,
+        ".unknown": 3,
+        ".sql": 4,
+        ".bat": 2,
+        ".mjs": 2,
+        ".css": 51,
+        ".jsx": 77
+      },
+      "test_file_count": 1
+    },
+    "ai_detection": {
+      "repo_score": 0.1111,
+      "confidence": "high",
+      "signals": {
+        "uniformity": 0.5905,
+        "duplication": 0.0087,
+        "similarity": 0.0203,
+        "cluster_density": 0.0203,
+        "naming": 0.1081,
+        "smoothness": 0.4413
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/sw.js": 0.0318,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/vite.config.js": 0.1188,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/clearCache.js": 0.0198,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/configEnv.js": 0.0552,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/server.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/services/groq/index.js": 0.0294,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/services/groq/planner.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/services/groq/client.js": 0.3744,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/services/groq/chat.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/routes/ai.js": 0.4524,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/routes/api.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/config/redis.js": 0.1026,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/config/testFetch.js": 0.1314,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/config/db-sync.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/config/db.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/config/seedSupabase.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/languages.js": 0.5536,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/handicrafts.js": 0.1884,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/culture.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/history.js": 0.1644,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/reviews.js": 0.2274,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/foods.js": 0.1818,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/folk_arts.js": 0.1992,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/historical_events.js": 0.1986,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/cities.js": 0.1776,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/attire.js": 0.1824,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/places.js": 0.2094,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/feedback.js": 0.3588,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/history_rulers.js": 0.1854,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/unique_experiences.js": 0.1812,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/cultural_etiquette.js": 0.1854,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/districts.js": 0.5554,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/festivals.js": 0.1812,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/folk_music_instruments.js": 0.1866,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/communities_tribes.js": 0.1662,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/royal_wedding_venues.js": 0.1902,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/unesco_sites.js": 0.162,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/listings.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/controllers/dynasties.js": 0.5596,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/SQL/schema.sql": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/SQL/dropTables.sql": 0.1014,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/SQL/alter_priority.sql": 0.2004,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/SQL/disableRLS.sql": 0.114,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/middleware/cache.js": 0.2634,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/validate_data.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/fix_references.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/generate_interactive.bat": 0.4626,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/find_duplicate.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/generate_tables.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/find_images_interactive.bat": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/promptEngine.js": 0.378,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/run.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/imageProviders.js": 0.0852,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/utils.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/rateLimit.js": 0.1428,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/pexelsClient.js": 0.5478,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/backend/Rajasthan data/scripts/image_finder/groqClient.js": 0.5052,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/scripts/generate-sitemap.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/scripts/patch-sitemap.mjs": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/scripts/verify-urls.mjs": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/App.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/main.jsx": 0.0624,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/hooks/useFetch.js": 0.3036,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/hooks/useSEO.js": 0.5394,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/display.js": 0.0708,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/culture.js": 0.1014,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/arrays.js": 0.0228,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/search.js": 0.0996,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/seo.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/handicraftCategories.js": 0.3912,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/markdown.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/utils/analytics.js": 0.114,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/config/api.js": 0.147,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/RoyalWeddingDetail/RoyalWeddingDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/RulerDetail/RulerDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HandicraftDetail/HandicraftDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HistoricalEventsList/HistoricalEventsList.jsx": 0.3426,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/ExperiencesList/ExperiencesList.jsx": 0.2952,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/PlaceDetail/PlaceDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/UnescoSitesList/UnescoSitesList.jsx": 0.297,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/ExperienceDetail/ExperienceDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/ListingDetail/ListingDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FoodDetail/FoodDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/DistrictDetail/DistrictDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/NotFound/NotFound.jsx": 0.2706,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FoodsList/FoodsList.jsx": 0.45,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/RoyalWeddingsList/RoyalWeddingsList.jsx": 0.2964,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FolkArtsList/FolkArtsList.jsx": 0.3522,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FestivalDetail/FestivalDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/DynastiesList/DynastiesList.jsx": 0.4176,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/AiAssistant/AiAssistant.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/DirectoryRegister/DirectoryRegister.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/AttireList/AttireList.jsx": 0.2892,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HistoryCulture/HistoryCulture.jsx": 0.414,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HistoryCulture/components/ArtsPanel.jsx": 0.5124,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HistoryCulture/components/EtiquettePanel.jsx": 0.585,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HistoryCulture/components/DynastiesPanel.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/HandicraftsList/HandicraftsList.jsx": 0.444,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FolkArtDetail/FolkArtDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Feedback/Feedback.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/CitiesList/CitiesList.jsx": 0.4356,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/AttireDetail/AttireDetail.jsx": 0.594,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FestivalsList/FestivalsList.jsx": 0.4662,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/PlacesList/PlacesList.jsx": 0.3702,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/Home.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/data/homeContent.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/FestivalsFasting.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/InteractiveMap.jsx": 0.3834,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/CommunitiesLanguages.jsx": 0.3642,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/RajasthanQuotes.jsx": 0.2958,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/TriviaQuiz.jsx": 0.564,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/FactsTicker.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/FeaturedBanners.jsx": 0.2286,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/RajasthanIntro.jsx": 0.3918,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/DiversityStats.jsx": 0.258,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/FestivalRhythm.jsx": 0.3282,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/HeroSection.jsx": 0.4302,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/LivingCulture.jsx": 0.4542,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/PortalGrid.jsx": 0.5418,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/AiCallout.jsx": 0.0906,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/Home/components/CuisineShowcase.jsx": 0.222,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/LanguagesList/LanguagesList.jsx": 0.405,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/CultureDetail/CultureDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/CommunitiesList/CommunitiesList.jsx": 0.2832,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/DistrictsList/DistrictsList.jsx": 0.3984,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FolkMusicDetail/FolkMusicDetail.jsx": 0.5352,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/CommunityDetail/CommunityDetail.jsx": 0.5886,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/UnescoSiteDetail/UnescoSiteDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/DirectoryListings/DirectoryListings.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/CityDetail/CityDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/TripPlanner/TripPlanner.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/pages/FolkMusicList/FolkMusicList.jsx": 0.2958,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Explorer/Explorer.jsx": 0.531,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Community/Community.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/ReviewsSection/ReviewsSection.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/LazySection/LazySection.jsx": 0.2136,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/LoadingSpinner/LoadingSpinner.jsx": 0.2556,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/SearchFilterBar/SearchFilterBar.jsx": 0.2052,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/PageHeader/PageHeader.jsx": 0.2106,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/SectionHeader/SectionHeader.jsx": 0.1338,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/EmptyState/EmptyState.jsx": 0.3114,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/RajCard/RajCard.jsx": 0.3564,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/ui/InfiniteGrid/InfiniteGrid.jsx": 0.3834,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Navbar/Navbar.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Footer/Footer.jsx": 0.57,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Directory/Directory.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Hero/Hero.jsx": 0.2808,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/rajasthanconnect/src/components/Crafts/Crafts.jsx": 0.5442
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "PostgreSQL",
+        "Redis",
+        "Sql (Schema Found)",
+        "Supabase"
+      ],
+      "deployment": [
+        "Vercel"
+      ],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JavaScript": 207403,
+      "JSON": 1786051,
+      "HTML": 6986,
+      "React (JavaScript)": 6677,
+      "Markdown": 62747,
+      "Express (JavaScript)": 12293,
+      "Jest (JavaScript)": 13449,
+      "SQL": 28259,
+      "Next.js (JavaScript)": 1962,
+      "DOS Batch": 6997,
+      "XML": 176150,
+      "CSS": 218758,
+      "React (JSX)": 344616,
+      "Next.js (JSX)": 3809
+    },
+    "docs": {
+      "description": "> **Official Repository for rajasthanconnect.in** \u2014 Bridging the Royal Heritage, Local Tourism Providers, and Global Travelers of Rajasthan.",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Mapped (.env file present)"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 5
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 4.71,
+      "label": "Fair",
+      "component_scores": {
+        "commits": 0.3267,
+        "dev_span_months": 0.0667,
+        "contributors": 0.6667,
+        "loc": 0.7205,
+        "has_tests": 1.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.025,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.02,
+    "stage2_seconds": 0.17,
+    "stage4_seconds": 1.67,
+    "stage5_seconds": 0.07,
+    "total_seconds": 9.34
+  },
+  "github_prs": {
+    "total_pr_count": 1,
+    "open_pr_count": 0,
+    "closed_pr_count": 1,
+    "merged_pr_count": 1,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/rajasthanconnect",
+    "owner": "Saini-Yogesh",
+    "description": "Rajasthan Connect is a unified digital portal designed to bring the rich culture, historic landmarks, local guides, and artisanal workshops of Rajasthan directly to travelers worldwide.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 1,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-06-25",
+    "pushed_at": "2026-07-19",
+    "size_kb": 5886,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "rajasthanconnect",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-06-25",
+    "last_commit_date": "2026-07-19",
+    "loc_code": 24846,
+    "loc_comment": 805,
+    "loc_blank": 2986,
+    "loc_files": 200,
+    "lang_count": 3,
+    "languages": "CSS | JavaScript | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 49,
+    "contributors": 3,
+    "all_contributors_count": 3,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini, Vercel",
+    "branch_count": 1,
+    "meaningful_commit_count": 37,
+    "development_span_months": 0.8,
+    "commits_per_month": "61.2 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 151540,
+    "lexical_token": 157068,
+    "duplication_weighted_percent": "0.4%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "11.1%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "PostgreSQL | Redis | Sql (Schema Found) | Supabase",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 4.71,
+    "repo_rating_label": "Fair",
+    "languages_percentage_bytes(>5%)": "JavaScript (72.3%) | CSS (26.8%)",
+    "frameworks_percentage_bytes(>5%)": "React (91.8%)",
+    "total_time_seconds": 9.34,
+    "total_pr_count": 1,
+    "open_pr_count": 0,
+    "closed_pr_count": 1,
+    "merged_pr_count": 1,
+    "github_pr_analysis_available": true,
+    "deployment_env": "Vercel",
+    "environment_variables": "Mapped (.env file present)",
+    "stars": 1,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-06-25",
+    "loc_verified": 24846,
+    "tokenizer_method": "N/A"
+  }
+}

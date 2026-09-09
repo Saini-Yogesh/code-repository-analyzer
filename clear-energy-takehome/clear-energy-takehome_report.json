@@ -1,0 +1,338 @@
+{
+  "repo": "clear-energy-takehome",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 9,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 8,
+      "last_update": "2026-07-08",
+      "first_commit": "2026-07-08",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 1
+      },
+      "all_contributors": [
+        {
+          "name": "yogeshintern",
+          "email": "yogesh.intern@vivriticapital.com",
+          "commits": 7
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 2
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 2073,
+      "breakdown": {
+        "code": 2073,
+        "comment": 134,
+        "blank": 177,
+        "nFiles": 31
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "list": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "breakdown": {
+        "TypeScript": {
+          "loc": 2047,
+          "files": 29,
+          "pct": 98.75
+        },
+        "JavaScript": {
+          "loc": 26,
+          "files": 2,
+          "pct": 1.25
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 15929,
+      "lexical": 15371
+    },
+    "duplication": {
+      "token_weighted": 0.0979,
+      "duplicate_tokens": 1560,
+      "exact_duplicate_files": 4,
+      "similar_clusters": [
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/metro.config.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/metro.config.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/metro.config.js"
+        ],
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/App.tsx",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/App.tsx",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/App.tsx"
+        ],
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/index.ts",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/index.ts",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/index.ts"
+        ]
+      ]
+    },
+    "compliance": {
+      "is_open_source": true,
+      "license_file": "LICENSE",
+      "license_type": "Mit License",
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 40,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 40,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 2.0
+    },
+    "secrets": {
+      "files_scanned": 35,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 24,
+      "files": 40,
+      "extensions": {
+        ".unknown": 5,
+        ".js": 4,
+        ".ts": 21,
+        ".tsx": 10
+      },
+      "test_file_count": 1
+    },
+    "ai_detection": {
+      "repo_score": 0.2289,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.5504,
+        "duplication": 0.2448,
+        "similarity": 0.2571,
+        "cluster_density": 0.0857,
+        "naming": 0.0,
+        "smoothness": 0.4965
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/jest.config.js": 0.0534,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/index.ts": 0.0948,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/validators/order.ts": 0.2478,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/hooks/usePendingActions.ts": 0.1584,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/hooks/useTrips.ts": 0.0612,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/hooks/useOrders.ts": 0.06,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/hooks/useNetwork.ts": 0.1056,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/hooks/useRefresh.ts": 0.0804,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/hooks/useLoading.ts": 0.0708,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/constants/index.ts": 0.0798,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/utils/formatter.test.ts": 0.1704,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/utils/formatter.ts": 0.5124,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/utils/logger.ts": 0.1044,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/theme/useAppTheme.ts": 0.0804,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/theme/tokens.ts": 0.4572,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/api/service.ts": 0.327,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/api/errors.ts": 0.4452,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/api/client.ts": 0.5154,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/types/index.ts": 0.1704,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/components/ErrorState.tsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/components/OrderCardSkeleton.tsx": 0.4956,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/components/OrderCard.tsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/packages/shared/src/components/EmptyState.tsx": 0.3396,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/metro.config.js": 0.4882,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/index.ts": 0.4384,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/App.tsx": 0.616,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/admin-mobile/src/screens/PendingActionsScreen.tsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/metro.config.js": 0.4882,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/index.ts": 0.4384,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/App.tsx": 0.6148,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/driver/src/screens/TripScreen.tsx": 0.5712,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/metro.config.js": 0.4882,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/index.ts": 0.4384,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/App.tsx": 0.6148,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/clear-energy-takehome/apps/customer/src/screens/OrdersScreen.tsx": 0.5214
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react"
+      ],
+      "code_imports": [
+        "React"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JavaScript": 2554,
+      "JSON": 11056,
+      "Markdown": 12264,
+      "React (JavaScript)": 293,
+      "TypeScript": 19709,
+      "React (TypeScript)": 5018,
+      "Next.js (TypeScript)": 1007,
+      "React (TSX)": 39635
+    },
+    "docs": {
+      "description": "A production-grade, highly scalable React Native Expo monorepo supporting three enterprise mobile applications: **Customer**, **Driver**, and **Admin Mobile**. This workspace utilizes a unified core m...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 2
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 2.8,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.06,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.2073,
+        "has_tests": 1.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.025,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.04,
+    "stage4_seconds": 0.25,
+    "stage5_seconds": 0.01,
+    "total_seconds": 7.25
+  },
+  "github_prs": {
+    "total_pr_count": 1,
+    "open_pr_count": 0,
+    "closed_pr_count": 1,
+    "merged_pr_count": 1,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/clear-energy-takehome",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-07-08",
+    "pushed_at": "2026-07-08",
+    "size_kb": 622,
+    "license": null,
+    "language": "TypeScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "clear-energy-takehome",
+    "is_git": true,
+    "license_type": "Mit License",
+    "first_commit_date": "2026-07-08",
+    "last_commit_date": "2026-07-08",
+    "loc_code": 2073,
+    "loc_comment": 134,
+    "loc_blank": 177,
+    "loc_files": 31,
+    "lang_count": 2,
+    "languages": "TypeScript | JavaScript",
+    "languages_frontend": "JavaScript | TypeScript",
+    "languages_backend": "",
+    "commits": 9,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "yogeshintern, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 8,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 15929,
+    "lexical_token": 15371,
+    "duplication_weighted_percent": "9.8%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "22.9%",
+    "frameworks": "package.json: react | code_imports: React",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 2.8,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "TypeScript (95.8%)",
+    "frameworks_percentage_bytes(>5%)": "React (97.8%)",
+    "total_time_seconds": 7.25,
+    "total_pr_count": 1,
+    "open_pr_count": 0,
+    "closed_pr_count": 1,
+    "merged_pr_count": 1,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-07-08",
+    "loc_verified": 2073,
+    "tokenizer_method": "N/A"
+  }
+}

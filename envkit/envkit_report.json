@@ -1,0 +1,283 @@
+{
+  "repo": "envkit",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 2,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 2,
+      "last_update": "2026-09-09",
+      "first_commit": "2026-09-09",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        },
+        {
+          "name": "saini-yogesh",
+          "email": "yogesh.saini@neuleap.ai",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 662,
+      "breakdown": {
+        "code": 662,
+        "comment": 431,
+        "blank": 126,
+        "nFiles": 9
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "list": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 601,
+          "files": 8,
+          "pct": 90.79
+        },
+        "TypeScript": {
+          "loc": 61,
+          "files": 1,
+          "pct": 9.21
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 8407,
+      "lexical": 9202
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": false
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 12,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 12,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": -0.0
+    },
+    "secrets": {
+      "files_scanned": 9,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 2,
+      "files": 12,
+      "extensions": {
+        ".unknown": 3,
+        ".js": 8,
+        ".ts": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0923,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.6154,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.5998
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/eslint.config.js": 0.1572,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/types/index.d.ts": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/errors.js": 0.2274,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/cli.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/index.js": 0.1932,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/loader.js": 0.423,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/utils.js": 0.3894,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/validator.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/envkit/src/parser.js": 0.5388
+      }
+    },
+    "frameworks": {},
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JavaScript": 28107,
+      "Markdown": 15239,
+      "JSON": 2232,
+      "TypeScript": 6253
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "Mapped (.env file present)"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 1.41,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0133,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.0662,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.05,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.5
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/envkit",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-09-09",
+    "pushed_at": "2026-09-09",
+    "size_kb": 42,
+    "license": "MIT",
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "envkit",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-09-09",
+    "last_commit_date": "2026-09-09",
+    "loc_code": 662,
+    "loc_comment": 431,
+    "loc_blank": 126,
+    "loc_files": 9,
+    "lang_count": 2,
+    "languages": "JavaScript | TypeScript",
+    "languages_frontend": "JavaScript | TypeScript",
+    "languages_backend": "",
+    "commits": 2,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, saini-yogesh",
+    "branch_count": 1,
+    "meaningful_commit_count": 2,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 8407,
+    "lexical_token": 9202,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "9.2%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 1.41,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (81.8%) | TypeScript (18.2%)",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 5.5,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Mapped (.env file present)",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-09-09",
+    "loc_verified": 662,
+    "tokenizer_method": "N/A"
+  }
+}

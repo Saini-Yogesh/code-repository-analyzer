@@ -1,0 +1,316 @@
+{
+  "repo": "beauty-parlour-demo",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 8,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 5,
+      "last_update": "2026-03-14",
+      "first_commit": "2026-03-10",
+      "active_span_months": 0.1,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 1
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 7
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 1558,
+      "breakdown": {
+        "code": 1558,
+        "comment": 70,
+        "blank": 392,
+        "nFiles": 32
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "breakdown": {
+        "CSS": {
+          "loc": 796,
+          "files": 13,
+          "pct": 51.09
+        },
+        "JSX": {
+          "loc": 671,
+          "files": 15,
+          "pct": 43.07
+        },
+        "JavaScript": {
+          "loc": 54,
+          "files": 3,
+          "pct": 3.47
+        },
+        "HTML": {
+          "loc": 37,
+          "files": 1,
+          "pct": 2.37
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 5285,
+      "lexical": 5634
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": false
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 33,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 33,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 6.0
+    },
+    "secrets": {
+      "files_scanned": 18,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 18,
+      "files": 33,
+      "extensions": {
+        ".js": 3,
+        ".html": 1,
+        ".unknown": 1,
+        ".jsx": 15,
+        ".css": 13
+      },
+      "test_file_count": 2
+    },
+    "ai_detection": {
+      "repo_score": 0.1006,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6704,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.6378
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/eslint.config.js": 0.1146,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/vite.config.js": 0.0366,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/App.jsx": 0.0504,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/main.jsx": 0.0318,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/utils/getParlerName.js": 0.0906,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/pages/Home.jsx": 0.159,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Team/Team.jsx": 0.1974,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/BeforeAfter/BeforeAfter.jsx": 0.186,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Services/Services.jsx": 0.4266,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Pricing/Pricing.jsx": 0.3132,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/CTA/CTA.jsx": 0.171,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Navbar/Navbar.jsx": 0.2262,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Gallery/Gallery.jsx": 0.2142,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Footer/Footer.jsx": 0.2634,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Location/Location.jsx": 0.174,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Whatsapp/Whatsapp.jsx": 0.0774,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Testimonials/Testimonials.jsx": 0.2718,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/beauty-parlour-demo/src/components/Hero/Hero.jsx": 0.1668
+      }
+    },
+    "frameworks": {
+      "code_imports": [
+        "React"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "React (JavaScript)": 1011,
+      "JSON": 705,
+      "HTML": 1694,
+      "Markdown": 48,
+      "React (JSX)": 19774,
+      "JavaScript": 686,
+      "CSS": 15460
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 2.71,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0533,
+        "dev_span_months": 0.0083,
+        "contributors": 0.5,
+        "loc": 0.1558,
+        "has_tests": 1.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.05,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.07,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.9
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/beauty-parlour-demo",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": true,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-03-10",
+    "pushed_at": "2026-03-14",
+    "size_kb": 114,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "private"
+  },
+  "full_report_snapshot": {
+    "repo_name": "beauty-parlour-demo",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-03-10",
+    "last_commit_date": "2026-03-14",
+    "loc_code": 1558,
+    "loc_comment": 70,
+    "loc_blank": 392,
+    "loc_files": 32,
+    "lang_count": 3,
+    "languages": "CSS | JavaScript | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 8,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 5,
+    "development_span_months": 0.1,
+    "commits_per_month": "80.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 5285,
+    "lexical_token": 5634,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "10.1%",
+    "frameworks": "code_imports: React",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 2.71,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (55.6%) | CSS (40.0%)",
+    "frameworks_percentage_bytes(>5%)": "React (100.0%)",
+    "total_time_seconds": 5.9,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-03-10",
+    "loc_verified": 1558,
+    "tokenizer_method": "N/A"
+  }
+}

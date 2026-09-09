@@ -1,0 +1,293 @@
+{
+  "repo": "Contact-list",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Contact-list",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 15,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 10,
+      "last_update": "2024-07-26",
+      "first_commit": "2024-04-13",
+      "active_span_months": 3.4,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 7
+        },
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 5
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 3
+        }
+      ],
+      "all_contributors_count": 3,
+      "source": "git"
+    },
+    "loc": {
+      "value": 434,
+      "breakdown": {
+        "code": 434,
+        "comment": 15,
+        "blank": 29,
+        "nFiles": 5
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "list": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 228,
+          "files": 3,
+          "pct": 52.53
+        },
+        "CSS": {
+          "loc": 141,
+          "files": 1,
+          "pct": 32.49
+        },
+        "HTML": {
+          "loc": 65,
+          "files": 1,
+          "pct": 14.98
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 1755,
+      "lexical": 1866
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 5,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 100.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 5
+      },
+      "median_age_months": 25.7
+    },
+    "secrets": {
+      "files_scanned": 3,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 1,
+      "files": 5,
+      "extensions": {
+        ".js": 3,
+        ".html": 1,
+        ".css": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1109,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.7396,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.6969
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Contact-list/script.js": 0.54,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Contact-list/contactList.js": 0.1662,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Contact-list/Trie.js": 0.3468
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JavaScript": 7902,
+      "HTML": 2307,
+      "Markdown": 14,
+      "CSS": 2731
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.96,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.1,
+        "dev_span_months": 0.2833,
+        "contributors": 0.5,
+        "loc": 0.0434,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.02,
+    "stage2_seconds": 0.02,
+    "stage4_seconds": 0.07,
+    "stage5_seconds": 0.0,
+    "total_seconds": 6.07
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Contact-list",
+    "owner": "Saini-Yogesh",
+    "description": "This project is a web application for managing a contact list with an autocomplete feature using a trie data structure. Users can add, delete, and call contacts, with names and phone numbers stored efficiently. The trie enables fast, dynamic search suggestions as users type in the search box.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [
+      "css",
+      "html",
+      "javascript",
+      "js",
+      "trie"
+    ],
+    "default_branch": "main",
+    "created_at": "2024-04-13",
+    "pushed_at": "2024-07-26",
+    "size_kb": 2605,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Contact-list",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-04-13",
+    "last_commit_date": "2024-07-26",
+    "loc_code": 434,
+    "loc_comment": 15,
+    "loc_blank": 29,
+    "loc_files": 5,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 15,
+    "contributors": 2,
+    "all_contributors_count": 3,
+    "all_contributors": "Yogesh Saini, Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 10,
+    "development_span_months": 3.4,
+    "commits_per_month": "4.4 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 1755,
+    "lexical_token": 1866,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "11.1%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 1.96,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (61.1%) | CSS (21.1%) | HTML (17.8%)",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 6.07,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-04-13",
+    "loc_verified": 434,
+    "tokenizer_method": "N/A"
+  }
+}

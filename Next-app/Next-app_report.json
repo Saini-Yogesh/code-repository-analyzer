@@ -1,0 +1,319 @@
+{
+  "repo": "Next-app",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 21,
+      "unique_contributors": 2,
+      "branch_count": 3,
+      "meaningful_commit_count": 28,
+      "last_update": "2024-10-07",
+      "first_commit": "2024-10-05",
+      "active_span_months": 0.1,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 3
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 27
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 4
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 323,
+      "breakdown": {
+        "code": 323,
+        "comment": 28,
+        "blank": 36,
+        "nFiles": 22
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "JavaScript",
+        "CSS"
+      ],
+      "list": [
+        "JavaScript",
+        "CSS"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 300,
+          "files": 19,
+          "pct": 92.88
+        },
+        "CSS": {
+          "loc": 23,
+          "files": 3,
+          "pct": 7.12
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 2132,
+      "lexical": 2480
+    },
+    "duplication": {
+      "token_weighted": 0.0915,
+      "duplicate_tokens": 195,
+      "exact_duplicate_files": 0,
+      "similar_clusters": [
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/not-found.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/[...not-found]/page.js"
+        ],
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/aboutStudents/page.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/aboutCollage/page.js"
+        ],
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/login/studentLogin/page.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/login/teacherLogin/page.js"
+        ]
+      ]
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 24,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 24,
+        ">2yr": 0
+      },
+      "median_age_months": 23.1
+    },
+    "secrets": {
+      "files_scanned": 19,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 15,
+      "files": 24,
+      "extensions": {
+        ".mjs": 1,
+        ".unknown": 1,
+        ".js": 18,
+        ".css": 4
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.2567,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6576,
+        "duplication": 0.2287,
+        "similarity": 0.3158,
+        "cluster_density": 0.1053,
+        "naming": 0.0,
+        "smoothness": 0.634
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/next.config.mjs": 0.0132,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/middleware.js": 0.162,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/page.js": 0.1182,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/layout.js": 0.099,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/not-found.js": 0.421,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/page.js": 0.0912,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/layout.js": 0.0768,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/[...not-found]/page.js": 0.4222,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/aboutStudents/page.js": 0.4462,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/about/aboutCollage/page.js": 0.4486,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/login/page.js": 0.0906,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/login/layout.js": 0.0996,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/login/studentLogin/page.js": 0.4468,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/login/teacherLogin/page.js": 0.4462,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/studentList/page.js": 0.0948,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/studentList/[student]/page.js": 0.0432,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/productList/page.js": 0.0978,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/study/page.js": 0.0204,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Next-app/src/app/study/[...lecture]/page.js": 0.0414
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "next"
+      ],
+      "code_imports": [
+        "React",
+        "Next.js"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 477,
+      "Markdown": 1449,
+      "Next.js (JavaScript)": 7079,
+      "JavaScript": 563,
+      "CSS": 473,
+      "React (JavaScript)": 668
+    },
+    "docs": {
+      "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+      "has_setup": true,
+      "doc_quality": "Medium",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.61,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.14,
+        "dev_span_months": 0.0083,
+        "contributors": 0.5,
+        "loc": 0.0323,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.1,
+    "stage5_seconds": 0.0,
+    "total_seconds": 10.37
+  },
+  "github_prs": {
+    "total_pr_count": 4,
+    "open_pr_count": 1,
+    "closed_pr_count": 3,
+    "merged_pr_count": 3,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Next-app",
+    "owner": "Saini-Yogesh",
+    "description": "Next-app",
+    "is_private": true,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 1,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-10-05",
+    "pushed_at": "2024-10-07",
+    "size_kb": 217,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "private"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Next-app",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-10-05",
+    "last_commit_date": "2024-10-07",
+    "loc_code": 323,
+    "loc_comment": 28,
+    "loc_blank": 36,
+    "loc_files": 22,
+    "lang_count": 2,
+    "languages": "JavaScript | CSS",
+    "languages_frontend": "CSS | JavaScript",
+    "languages_backend": "",
+    "commits": 21,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, Yogesh Saini",
+    "branch_count": 3,
+    "meaningful_commit_count": 28,
+    "development_span_months": 0.1,
+    "commits_per_month": "210.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 2132,
+    "lexical_token": 2480,
+    "duplication_weighted_percent": "9.2%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "25.7%",
+    "frameworks": "package.json: react,next | code_imports: React,Next.js",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "Medium",
+    "repo_rating_score": 1.61,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (94.6%) | CSS (5.4%)",
+    "frameworks_percentage_bytes(>5%)": "Next.js (91.4%) | React (8.6%)",
+    "total_time_seconds": 10.37,
+    "total_pr_count": 4,
+    "open_pr_count": 1,
+    "closed_pr_count": 3,
+    "merged_pr_count": 3,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 1,
+    "creation_date": "2024-10-05",
+    "loc_verified": 323,
+    "tokenizer_method": "N/A"
+  }
+}

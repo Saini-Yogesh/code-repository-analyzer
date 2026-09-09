@@ -1,0 +1,275 @@
+{
+  "repo": "Assessment",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assessment",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 2,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 2,
+      "last_update": "2024-08-08",
+      "first_commit": "2024-08-08",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 2
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 330,
+      "breakdown": {
+        "code": 330,
+        "comment": 6,
+        "blank": 36,
+        "nFiles": 3
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "CSS",
+        "JavaScript",
+        "HTML"
+      ],
+      "list": [
+        "CSS",
+        "JavaScript",
+        "HTML"
+      ],
+      "breakdown": {
+        "CSS": {
+          "loc": 158,
+          "files": 1,
+          "pct": 47.88
+        },
+        "JavaScript": {
+          "loc": 120,
+          "files": 1,
+          "pct": 36.36
+        },
+        "HTML": {
+          "loc": 52,
+          "files": 1,
+          "pct": 15.76
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 955,
+      "lexical": 1124
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 3,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 100.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 3
+      },
+      "median_age_months": 25.0
+    },
+    "secrets": {
+      "files_scanned": 1,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 0,
+      "files": 3,
+      "extensions": {
+        ".css": 1,
+        ".js": 1,
+        ".html": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.0,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.0
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assessment/Ass.js": 0.573
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "CSS": 2955,
+      "JavaScript": 4344,
+      "HTML": 1812,
+      "Markdown": 5
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 0.97,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0133,
+        "dev_span_months": 0.0,
+        "contributors": 0.25,
+        "loc": 0.033,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.02,
+    "stage4_seconds": 0.05,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.28
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Assessment",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-08-08",
+    "pushed_at": "2024-08-08",
+    "size_kb": 4,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Assessment",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-08-08",
+    "last_commit_date": "2024-08-08",
+    "loc_code": 330,
+    "loc_comment": 6,
+    "loc_blank": 36,
+    "loc_files": 3,
+    "lang_count": 3,
+    "languages": "CSS | JavaScript | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 2,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 2,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 955,
+    "lexical_token": 1124,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "0.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 0.97,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (47.7%) | CSS (32.4%) | HTML (19.9%)",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 5.28,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-08-08",
+    "loc_verified": 330,
+    "tokenizer_method": "N/A"
+  }
+}

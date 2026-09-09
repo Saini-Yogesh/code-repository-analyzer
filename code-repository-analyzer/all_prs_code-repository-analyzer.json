@@ -1,0 +1,59 @@
+[
+  {
+    "number": 3,
+    "title": "Fix token fallback logic in workflow and fetch script",
+    "state": "closed",
+    "created_at": "2026-09-09T07:09:07+00:00",
+    "updated_at": "2026-09-09T07:09:40+00:00",
+    "closed_at": "2026-09-09T07:09:40+00:00",
+    "merged_at": "2026-09-09T07:09:40+00:00",
+    "user": {
+      "login": "yogesh-saini-data"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/code-repository-analyzer/pull/3",
+    "additions": 28,
+    "deletions": 11,
+    "changed_files": 2,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 2,
+    "title": "Fix secret names to GH_TOKEN and GH_USERNAME for GitHub Actions compl\u2026",
+    "state": "closed",
+    "created_at": "2026-09-09T05:11:15+00:00",
+    "updated_at": "2026-09-09T05:11:50+00:00",
+    "closed_at": "2026-09-09T05:11:50+00:00",
+    "merged_at": "2026-09-09T05:11:50+00:00",
+    "user": {
+      "login": "yogesh-saini-data"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/code-repository-analyzer/pull/2",
+    "additions": 13,
+    "deletions": 13,
+    "changed_files": 3,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 1,
+    "title": "Configure workflow for GitHub Actions readiness with exact secrets",
+    "state": "closed",
+    "created_at": "2026-09-09T05:04:47+00:00",
+    "updated_at": "2026-09-09T05:05:21+00:00",
+    "closed_at": "2026-09-09T05:05:20+00:00",
+    "merged_at": "2026-09-09T05:05:20+00:00",
+    "user": {
+      "login": "yogesh-saini-data"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/code-repository-analyzer/pull/1",
+    "additions": 75,
+    "deletions": 44,
+    "changed_files": 5,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  }
+]

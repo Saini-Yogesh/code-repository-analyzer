@@ -1,0 +1,282 @@
+{
+  "repo": "asana-rl-seed-data",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 4,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 4,
+      "last_update": "2026-01-06",
+      "first_commit": "2026-01-06",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 4
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 354,
+      "breakdown": {
+        "code": 354,
+        "comment": 36,
+        "blank": 62,
+        "nFiles": 14
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 1,
+      "core_list": [
+        "Python"
+      ],
+      "list": [
+        "Python",
+        "SQL"
+      ],
+      "breakdown": {
+        "Python": {
+          "loc": 249,
+          "files": 13,
+          "pct": 70.34
+        },
+        "SQL": {
+          "loc": 105,
+          "files": 1,
+          "pct": 29.66
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 2959,
+      "lexical": 2907
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 16,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 16,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 8.0
+    },
+    "secrets": {
+      "files_scanned": 14,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 5,
+      "files": 16,
+      "extensions": {
+        ".sql": 1,
+        ".docx": 1,
+        ".unknown": 1,
+        ".py": 13
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1037,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6402,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0769,
+        "smoothness": 0.5186
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/schema.sql": 0.5082,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/zz.py": 0.0744,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/main.py": 0.1602,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/sections.py": 0.1284,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/organizations.py": 0.0432,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/projects.py": 0.1572,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/users.py": 0.1638,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/tasks.py": 0.267,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/teams.py": 0.0786,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/generators/team_memberships.py": 0.0672,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/utils/time.py": 0.0684,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/utils/db.py": 0.0204,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/asana-rl-seed-data/src/config/settings.py": 0.0306
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [
+        "SQLAlchemy (ORM)",
+        "Sql (Schema Found)"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "SQL": 4117,
+      "Markdown": 5461,
+      "Python": 9257
+    },
+    "docs": {
+      "description": "This is a data generation pipeline that creates **realistic, enterprise-grade seed data** for simulating a real-world Asana workspace at scale. It's built to support **reinforcement learning environme...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Detected in README"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 1.0,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0267,
+        "dev_span_months": 0.0,
+        "contributors": 0.25,
+        "loc": 0.0354,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.12,
+    "stage5_seconds": 0.0,
+    "total_seconds": 6.89
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/asana-rl-seed-data",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-01-06",
+    "pushed_at": "2026-01-06",
+    "size_kb": 17330,
+    "license": null,
+    "language": "Python",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "asana-rl-seed-data",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-01-06",
+    "last_commit_date": "2026-01-06",
+    "loc_code": 354,
+    "loc_comment": 36,
+    "loc_blank": 62,
+    "loc_files": 14,
+    "lang_count": 1,
+    "languages": "Python",
+    "languages_frontend": "",
+    "languages_backend": "Python",
+    "commits": 4,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Saini-Yogesh",
+    "branch_count": 1,
+    "meaningful_commit_count": 4,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 2959,
+    "lexical_token": 2907,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "10.4%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "SQLAlchemy (ORM) | Sql (Schema Found)",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.0,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "Python (100.0%)",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 6.89,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Detected in README",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2026-01-06",
+    "loc_verified": 354,
+    "tokenizer_method": "N/A"
+  }
+}

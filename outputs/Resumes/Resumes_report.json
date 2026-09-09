@@ -1,0 +1,234 @@
+{
+  "repo": "Resumes",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Resumes",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 12,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 8,
+      "last_update": "2025-08-03",
+      "first_commit": "2024-08-01",
+      "active_span_months": 12.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 11
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 0,
+      "source": "none",
+      "notes": "cloc failure"
+    },
+    "languages": {
+      "count": 0,
+      "list": [],
+      "breakdown": {},
+      "source": "none"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 0,
+      "lexical": 0
+    },
+    "duplication": {
+      "token_weighted": 0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 1,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 1,
+        ">2yr": 0
+      },
+      "median_age_months": 19.6
+    },
+    "secrets": {
+      "files_scanned": 0,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": false,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 1,
+      "files": 1,
+      "extensions": {
+        ".unknown": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0,
+      "confidence": "none",
+      "signals": {}
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "Markdown": 18
+    },
+    "docs": {
+      "description": "Resumes",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "N/A",
+    "repo_rating": {
+      "rating": 1.91,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.08,
+        "dev_span_months": 0.6667,
+        "contributors": 0.5,
+        "loc": 0.0,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 0.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.01,
+    "stage4_seconds": 0.02,
+    "stage5_seconds": 0.0,
+    "total_seconds": 7.03
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Resumes",
+    "owner": "Saini-Yogesh",
+    "description": "Resumes",
+    "is_private": true,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-08-01",
+    "pushed_at": "2025-08-03",
+    "size_kb": 5441,
+    "license": null,
+    "language": null,
+    "subscribers": 1,
+    "visibility": "private"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Resumes",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-08-01",
+    "last_commit_date": "2025-08-03",
+    "loc_code": 0,
+    "loc_comment": 0,
+    "loc_blank": 0,
+    "loc_files": 0,
+    "lang_count": 0,
+    "languages": "",
+    "languages_frontend": "",
+    "languages_backend": "",
+    "commits": 12,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 8,
+    "development_span_months": 12.0,
+    "commits_per_month": "1.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 0,
+    "lexical_token": 0,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "N/A",
+    "ai_detection_percent": "0.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 1.91,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "N/A",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 7.03,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-08-01",
+    "loc_verified": 0,
+    "tokenizer_method": "N/A"
+  }
+}

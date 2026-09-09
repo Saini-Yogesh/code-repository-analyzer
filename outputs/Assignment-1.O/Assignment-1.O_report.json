@@ -1,0 +1,293 @@
+{
+  "repo": "Assignment-1.O",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 5,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 3,
+      "last_update": "2025-01-21",
+      "first_commit": "2025-01-20",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 5
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 870,
+      "breakdown": {
+        "code": 870,
+        "comment": 43,
+        "blank": 149,
+        "nFiles": 24
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "list": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 436,
+          "files": 17,
+          "pct": 50.11
+        },
+        "CSS": {
+          "loc": 414,
+          "files": 6,
+          "pct": 47.59
+        },
+        "HTML": {
+          "loc": 20,
+          "files": 1,
+          "pct": 2.3
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 3125,
+      "lexical": 3469
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 29,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 29,
+        ">2yr": 0
+      },
+      "median_age_months": 19.5
+    },
+    "secrets": {
+      "files_scanned": 18,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 16,
+      "files": 29,
+      "extensions": {
+        ".unknown": 1,
+        ".js": 18,
+        ".html": 1,
+        ".css": 9
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1044,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6961,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.5312
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/index.js": 0.0666,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/routes/userRoutes.js": 0.0774,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/middlewares/authMiddleware.js": 0.123,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/middlewares/checkId.js": 0.036,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/middlewares/asyncHandler.js": 0.0324,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/config/db.js": 0.0804,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/config/createToken.js": 0.0702,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/controllers/userController.js": 0.4488,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/backend/models/userModel.js": 0.0678,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/App.js": 0.0408,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/index.js": 0.0768,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/components/Navbar/Navbar.js": 0.0942,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/components/Footer/Footer.js": 0.2298,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/components/Home/Header.js": 0.1452,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/components/Home/Home.js": 0.0426,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/components/Home/Stats/Stats.js": 0.1008,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-1.O/frontend/src/components/Home/HeaderPart1/HeaderPart1.js": 0.1422
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "MongoDB"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 1756,
+      "Express (JavaScript)": 1125,
+      "Next.js (JavaScript)": 2329,
+      "JavaScript": 4954,
+      "Markdown": 3359,
+      "HTML": 1721,
+      "CSS": 8053,
+      "React (JavaScript)": 4713
+    },
+    "docs": {
+      "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.12,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0333,
+        "dev_span_months": 0.0,
+        "contributors": 0.25,
+        "loc": 0.087,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.15,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.36
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": false,
+    "reason": "404 {\"message\": \"Not Found\", \"documentation_url\": \"https://docs.github.com/rest/repos/repos#get-a-repository\", \"status\": \"404\"}"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Assignment-1.O",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2025-01-20",
+    "last_commit_date": "2025-01-21",
+    "loc_code": 870,
+    "loc_comment": 43,
+    "loc_blank": 149,
+    "loc_files": 24,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 5,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 3,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 3125,
+    "lexical_token": 3469,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "10.4%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "MongoDB",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.12,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (57.3%) | CSS (35.2%) | HTML (7.5%)",
+    "frameworks_percentage_bytes(>5%)": "React (57.7%) | Next.js (28.5%) | Express (13.8%)",
+    "total_time_seconds": 5.36,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": "N/A",
+    "forks": "N/A",
+    "watchers": "N/A",
+    "open_issues": "N/A",
+    "creation_date": "N/A",
+    "loc_verified": 870,
+    "tokenizer_method": "N/A"
+  }
+}

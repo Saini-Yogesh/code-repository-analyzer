@@ -1,0 +1,338 @@
+{
+  "repo": "ELD-Route-Planner",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 6,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 5,
+      "last_update": "2026-07-19",
+      "first_commit": "2026-07-19",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 1
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 5
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 5195,
+      "breakdown": {
+        "code": 5195,
+        "comment": 157,
+        "blank": 672,
+        "nFiles": 39
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "breakdown": {
+        "CSS": {
+          "loc": 2214,
+          "files": 8,
+          "pct": 42.62
+        },
+        "JSX": {
+          "loc": 1876,
+          "files": 11,
+          "pct": 36.11
+        },
+        "JavaScript": {
+          "loc": 1086,
+          "files": 19,
+          "pct": 20.9
+        },
+        "HTML": {
+          "loc": 19,
+          "files": 1,
+          "pct": 0.37
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 28851,
+      "lexical": 28805
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": false
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 43,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 43,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 1.7
+    },
+    "secrets": {
+      "files_scanned": 30,
+      "findings_count": 1,
+      "findings": [
+        {
+          "file": "env.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/config/env.js",
+          "type": "DB Connection String"
+        }
+      ],
+      "clean": false,
+      "risk_level": "medium"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 24,
+      "files": 43,
+      "extensions": {
+        ".unknown": 3,
+        ".js": 19,
+        ".html": 1,
+        ".css": 8,
+        ".jsx": 11,
+        ".docx": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0727,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.4846,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.3513
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/server.js": 0.2118,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/services/osrmService.js": 0.5982,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/services/hosEngine.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/routes/tripRoutes.js": 0.0492,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/routes/authRoutes.js": 0.0426,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/validations/authValidation.js": 0.1392,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/validations/tripValidation.js": 0.1242,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/middlewares/authMiddleware.js": 0.1302,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/middlewares/errorMiddleware.js": 0.066,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/config/env.js": 0.0762,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/config/db.js": 0.051,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/controllers/authController.js": 0.3918,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/controllers/tripController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/models/Trip.js": 0.2178,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/models/DailyLog.js": 0.2382,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/backend/models/User.js": 0.1968,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/vite.config.js": 0.0534,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/App.jsx": 0.0318,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/main.jsx": 0.0936,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/services/api.js": 0.1464,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/contexts/AuthContext.jsx": 0.2052,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/routes/AppRoutes.jsx": 0.1212,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/routes/PrivateRoute.jsx": 0.1536,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/config/env.js": 0.0372,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/pages/Home/Home.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/pages/Planner/Planner.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/pages/About/About.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/pages/Login/Login.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/components/Navbar/Navbar.jsx": 0.2244,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/ELD-Route-Planner/frontend/src/components/LogGrid/LogGrid.jsx": 0.6
+      }
+    },
+    "frameworks": {
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 1817,
+      "Markdown": 11075,
+      "Express (JavaScript)": 2180,
+      "JavaScript": 27020,
+      "Next.js (JavaScript)": 10289,
+      "HTML": 953,
+      "React (JavaScript)": 329,
+      "CSS": 48852,
+      "React (JSX)": 81088
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 2.33,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.04,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.5022,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.05,
+    "stage4_seconds": 0.11,
+    "stage5_seconds": 0.01,
+    "total_seconds": 6.21
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/ELD-Route-Planner",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-07-19",
+    "pushed_at": "2026-07-19",
+    "size_kb": 5089,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "ELD-Route-Planner",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-07-19",
+    "last_commit_date": "2026-07-19",
+    "loc_code": 5195,
+    "loc_comment": 157,
+    "loc_blank": 672,
+    "loc_files": 39,
+    "lang_count": 3,
+    "languages": "CSS | JavaScript | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 6,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 5,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 28851,
+    "lexical_token": 28805,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "7.3%",
+    "frameworks": "code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Review Required (1)",
+    "documentation_quality": "Low",
+    "repo_rating_score": 2.33,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (70.8%) | CSS (28.6%)",
+    "frameworks_percentage_bytes(>5%)": "React (86.7%) | Next.js (11.0%)",
+    "total_time_seconds": 6.21,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-07-19",
+    "loc_verified": 5195,
+    "tokenizer_method": "N/A"
+  }
+}

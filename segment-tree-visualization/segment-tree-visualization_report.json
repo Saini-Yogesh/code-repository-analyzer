@@ -1,0 +1,342 @@
+{
+  "repo": "segment-tree-visualization",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 47,
+      "unique_contributors": 3,
+      "branch_count": 1,
+      "meaningful_commit_count": 34,
+      "last_update": "2026-07-21",
+      "first_commit": "2025-02-08",
+      "active_span_months": 17.3,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": true,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": [],
+        "merge_commit_count": 5
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 24
+        },
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 15
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 5
+        },
+        {
+          "name": "Vercel",
+          "email": "vercel[bot]@users.noreply.github.com",
+          "commits": 3
+        }
+      ],
+      "all_contributors_count": 4,
+      "source": "git"
+    },
+    "loc": {
+      "value": 5229,
+      "breakdown": {
+        "code": 5229,
+        "comment": 166,
+        "blank": 844,
+        "nFiles": 47
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "JavaScript",
+        "CSS",
+        "C++"
+      ],
+      "list": [
+        "JavaScript",
+        "CSS",
+        "C++"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 3934,
+          "files": 32,
+          "pct": 75.23
+        },
+        "CSS": {
+          "loc": 1145,
+          "files": 13,
+          "pct": 21.9
+        },
+        "C++": {
+          "loc": 150,
+          "files": 2,
+          "pct": 2.87
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 42018,
+      "lexical": 43886
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 48,
+      "pct_untouched_1yr": 8.3,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 27,
+        "6m-1yr": 17,
+        "1yr-2yr": 4,
+        ">2yr": 0
+      },
+      "median_age_months": 2.7
+    },
+    "secrets": {
+      "files_scanned": 34,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 21,
+      "files": 48,
+      "extensions": {
+        ".cpp": 2,
+        ".mjs": 1,
+        ".unknown": 1,
+        ".js": 31,
+        ".css": 13
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0861,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.5541,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0294,
+        "smoothness": 0.4554
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/SGT_Lazy_Propagation.cpp": 0.5586,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/next.config.mjs": 0.0132,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/SGT.cpp": 0.3546,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/page.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/layout.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/not-found.js": 0.066,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/robots.js": 0.0276,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/segment-tree-interview-questions/page.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/about/page.js": 0.135,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/about/AboutContent.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/lazy-propagation-in-segment-tree/page.js": 0.5094,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/lazy-propagation-in-segment-tree/LazyPropagationContent.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/lazy-propagation-in-segment-tree/AllCodes.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/segment-tree/page.js": 0.498,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/segment-tree/AllCodes.js": 0.5976,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/segment-tree/SegmentTreeContent.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/sitemap.xml/route.js": 0.162,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/segment-tree-time-complexity/page.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/app/segment-tree-vs-fenwick-tree/page.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/TreeVisualizerSideBar.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/Navbar.js": 0.5196,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/Footer.js": 0.2676,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/Home.js": 0.33,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/InputSideBar.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/utils/segmentTreeUtils.js": 0.1398,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/operations/HandleRangeUpdate.js": 0.5112,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/operations/HandleUpdateIndex.js": 0.543,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/operations/HandleRangeQuery.js": 0.5928,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/functions/BuildHierarchy/BuildHierarchy.js": 0.1446,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/functions/ReportBugButton/ReportBugButton.js": 0.1338,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/functions/ScrollToTopButton/ScrollToTopButton.js": 0.1272,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/functions/downloadSVGAsPNG/downloadSVGAsPNG.js": 0.2556,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/functions/HighlightedCode/HighlightedCode.js": 0.1908,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/segment-tree-visualization/src/components/functions/FitInTheFrame/fitSegmentTree.js": 0.1932
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "next"
+      ],
+      "code_imports": [
+        "React",
+        "Next.js"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [
+        "Vercel"
+      ],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "C++": 4376,
+      "JSON": 761,
+      "Markdown": 4788,
+      "Next.js (JavaScript)": 92079,
+      "JavaScript": 29942,
+      "React (JavaScript)": 59849,
+      "CSS": 24739
+    },
+    "docs": {
+      "description": "An interactive Segment Tree Visualizer built with Next.js that helps learners and competitive programmers understand how segment trees work internally \u2014 including building, queries, point updates, and...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 4.35,
+      "label": "Fair",
+      "component_scores": {
+        "commits": 0.3133,
+        "dev_span_months": 0.8139,
+        "contributors": 0.6667,
+        "loc": 0.5025,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.02,
+    "stage2_seconds": 0.06,
+    "stage4_seconds": 0.78,
+    "stage5_seconds": 0.02,
+    "total_seconds": 10.4
+  },
+  "github_prs": {
+    "total_pr_count": 3,
+    "open_pr_count": 0,
+    "closed_pr_count": 3,
+    "merged_pr_count": 3,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/segment-tree-visualization",
+    "owner": "Saini-Yogesh",
+    "description": "The Segment Tree Visualizer is a web-based application built using Next.js that provides an interactive way to understand and visualize different types of segment trees. This project showcases efficient data structure operations and dynamic visualizations.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 3,
+    "forks": 2,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2025-02-08",
+    "pushed_at": "2026-07-21",
+    "size_kb": 4950,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "segment-tree-visualization",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2025-02-08",
+    "last_commit_date": "2026-07-21",
+    "loc_code": 5229,
+    "loc_comment": 166,
+    "loc_blank": 844,
+    "loc_files": 47,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | C++",
+    "languages_frontend": "CSS | JavaScript",
+    "languages_backend": "C++",
+    "commits": 47,
+    "contributors": 3,
+    "all_contributors_count": 4,
+    "all_contributors": "Yogesh Saini, Saini-Yogesh, Yogesh Saini, Vercel",
+    "branch_count": 1,
+    "meaningful_commit_count": 34,
+    "development_span_months": 17.3,
+    "commits_per_month": "2.7 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 42018,
+    "lexical_token": 43886,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "8.6%",
+    "frameworks": "package.json: react,next | code_imports: React,Next.js",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 4.35,
+    "repo_rating_label": "Fair",
+    "languages_percentage_bytes(>5%)": "JavaScript (86.2%) | CSS (11.7%)",
+    "frameworks_percentage_bytes(>5%)": "Next.js (60.6%) | React (39.4%)",
+    "total_time_seconds": 10.4,
+    "total_pr_count": 3,
+    "open_pr_count": 0,
+    "closed_pr_count": 3,
+    "merged_pr_count": 3,
+    "github_pr_analysis_available": true,
+    "deployment_env": "Vercel",
+    "environment_variables": "None",
+    "stars": 3,
+    "forks": 2,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2025-02-08",
+    "loc_verified": 5229,
+    "tokenizer_method": "N/A"
+  }
+}

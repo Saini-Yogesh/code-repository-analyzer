@@ -1,0 +1,304 @@
+{
+  "repo": "API-Routes",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 17,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 15,
+      "last_update": "2024-10-21",
+      "first_commit": "2024-10-08",
+      "active_span_months": 0.4,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 17
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 863,
+      "breakdown": {
+        "code": 863,
+        "comment": 14,
+        "blank": 62,
+        "nFiles": 26
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "JavaScript",
+        "CSS"
+      ],
+      "list": [
+        "JavaScript",
+        "CSS"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 810,
+          "files": 23,
+          "pct": 93.86
+        },
+        "CSS": {
+          "loc": 53,
+          "files": 3,
+          "pct": 6.14
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 5404,
+      "lexical": 5921
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": false
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 27,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 27,
+        ">2yr": 0
+      },
+      "median_age_months": 23.0
+    },
+    "secrets": {
+      "files_scanned": 23,
+      "findings_count": 1,
+      "findings": [
+        {
+          "file": "db.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/lib/db.js",
+          "type": "DB Connection String"
+        }
+      ],
+      "clean": false,
+      "risk_level": "medium"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 23,
+      "files": 27,
+      "extensions": {
+        ".mjs": 1,
+        ".unknown": 1,
+        ".js": 22,
+        ".css": 3
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0951,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6337,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.6049
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/next.config.mjs": 0.0132,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/lib/model/product.js": 0.0342,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/lib/model/image.js": 0.0288,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/page.js": 0.117,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/layout.js": 0.099,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/addProduct/page.js": 0.2628,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/uploadImage/page.js": 0.1104,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/users/page.js": 0.1224,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/users/ButtonComponent.js": 0.1422,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/users/[userId]/page.js": 0.0918,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/users/[userId]/update/page.js": 0.2418,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/api/upload/route.js": 0.1356,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/api/users/route.js": 0.087,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/api/users/[userId]/route.js": 0.1638,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/api/products/route.js": 0.1374,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/api/products/[productId]/route.js": 0.1818,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/api/[...student]/route.js": 0.0204,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/addUser/page.js": 0.2136,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/displayProducts/page.js": 0.3534,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/app/displayProducts/[editProduct]/page.js": 0.3462,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/API-Routes/src/util/db.js": 0.3132
+      }
+    },
+    "frameworks": {
+      "code_imports": [
+        "React",
+        "Next.js"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 505,
+      "Markdown": 1449,
+      "JavaScript": 2716,
+      "Next.js (JavaScript)": 13060,
+      "CSS": 873,
+      "React (JavaScript)": 6025
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.32,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.1133,
+        "dev_span_months": 0.0333,
+        "contributors": 0.25,
+        "loc": 0.0863,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.08,
+    "stage5_seconds": 0.0,
+    "total_seconds": 6.02
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/API-Routes",
+    "owner": "Saini-Yogesh",
+    "description": "API Routes",
+    "is_private": true,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-10-08",
+    "pushed_at": "2024-10-21",
+    "size_kb": 344,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "private"
+  },
+  "full_report_snapshot": {
+    "repo_name": "API-Routes",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-10-08",
+    "last_commit_date": "2024-10-21",
+    "loc_code": 863,
+    "loc_comment": 14,
+    "loc_blank": 62,
+    "loc_files": 26,
+    "lang_count": 2,
+    "languages": "JavaScript | CSS",
+    "languages_frontend": "CSS | JavaScript",
+    "languages_backend": "",
+    "commits": 17,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 15,
+    "development_span_months": 0.4,
+    "commits_per_month": "42.5 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 5404,
+    "lexical_token": 5921,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "9.5%",
+    "frameworks": "code_imports: React,Next.js",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Review Required (1)",
+    "documentation_quality": "Low",
+    "repo_rating_score": 1.32,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (96.1%)",
+    "frameworks_percentage_bytes(>5%)": "Next.js (68.4%) | React (31.6%)",
+    "total_time_seconds": 6.02,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-10-08",
+    "loc_verified": 863,
+    "tokenizer_method": "N/A"
+  }
+}

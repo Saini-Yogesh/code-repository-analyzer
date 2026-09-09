@@ -1,0 +1,276 @@
+{
+  "repo": "Assignment-2.O-bot",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-2.O-bot",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 1,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 1,
+      "last_update": "2025-01-20",
+      "first_commit": "2025-01-20",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": false,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 158,
+      "breakdown": {
+        "code": 158,
+        "comment": 3,
+        "blank": 21,
+        "nFiles": 6
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "list": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 119,
+          "files": 4,
+          "pct": 75.32
+        },
+        "HTML": {
+          "loc": 23,
+          "files": 1,
+          "pct": 14.56
+        },
+        "CSS": {
+          "loc": 16,
+          "files": 1,
+          "pct": 10.13
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 985,
+      "lexical": 1154
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 7,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 7,
+        ">2yr": 0
+      },
+      "median_age_months": 19.6
+    },
+    "secrets": {
+      "files_scanned": 4,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 3,
+      "files": 7,
+      "extensions": {
+        ".unknown": 1,
+        ".js": 4,
+        ".html": 1,
+        ".css": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1275,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.8501,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.6475
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-2.O-bot/public/script.js": 0.1212,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-2.O-bot/src/summarizer.js": 0.078,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-2.O-bot/src/server.js": 0.1074,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Assignment-2.O-bot/src/bot/botController.js": 0.2844
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "express"
+      ],
+      "code_imports": [
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": [
+        "Openai"
+      ]
+    },
+    "byte_breakdown": {
+      "JSON": 464,
+      "Markdown": 16,
+      "JavaScript": 3539,
+      "HTML": 603,
+      "CSS": 248,
+      "Express (JavaScript)": 717
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 0.92,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0067,
+        "dev_span_months": 0.0,
+        "contributors": 0.25,
+        "loc": 0.0158,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.02,
+    "stage4_seconds": 0.05,
+    "stage5_seconds": 0.0,
+    "total_seconds": 4.8
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": false,
+    "reason": "404 {\"message\": \"Not Found\", \"documentation_url\": \"https://docs.github.com/rest/repos/repos#get-a-repository\", \"status\": \"404\"}"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Assignment-2.O-bot",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2025-01-20",
+    "last_commit_date": "2025-01-20",
+    "loc_code": 158,
+    "loc_comment": 3,
+    "loc_blank": 21,
+    "loc_files": 6,
+    "lang_count": 3,
+    "languages": "JavaScript | HTML | CSS",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 1,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 1,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": false,
+    "tokens_llm": 985,
+    "lexical_token": 1154,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "12.8%",
+    "frameworks": "package.json: express | code_imports: Express",
+    "framework_frontend": "",
+    "framework_backend": "Express",
+    "databases_used": "",
+    "third_party_apis": "Openai",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 0.92,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (83.3%) | HTML (11.8%)",
+    "frameworks_percentage_bytes(>5%)": "Express (100.0%)",
+    "total_time_seconds": 4.8,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": "N/A",
+    "forks": "N/A",
+    "watchers": "N/A",
+    "open_issues": "N/A",
+    "creation_date": "N/A",
+    "loc_verified": 158,
+    "tokenizer_method": "N/A"
+  }
+}

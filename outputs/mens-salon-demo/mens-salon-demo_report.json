@@ -1,0 +1,307 @@
+{
+  "repo": "mens-salon-demo",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 4,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 3,
+      "last_update": "2026-03-14",
+      "first_commit": "2026-03-11",
+      "active_span_months": 0.1,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 4
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 2540,
+      "breakdown": {
+        "code": 2540,
+        "comment": 13,
+        "blank": 304,
+        "nFiles": 27
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "list": [
+        "CSS",
+        "JSX",
+        "JavaScript",
+        "HTML"
+      ],
+      "breakdown": {
+        "CSS": {
+          "loc": 1595,
+          "files": 12,
+          "pct": 62.8
+        },
+        "JSX": {
+          "loc": 871,
+          "files": 12,
+          "pct": 34.29
+        },
+        "JavaScript": {
+          "loc": 39,
+          "files": 2,
+          "pct": 1.54
+        },
+        "HTML": {
+          "loc": 35,
+          "files": 1,
+          "pct": 1.38
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 6966,
+      "lexical": 7205
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": false
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 28,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 28,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 5.8
+    },
+    "secrets": {
+      "files_scanned": 14,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 13,
+      "files": 28,
+      "extensions": {
+        ".js": 2,
+        ".html": 1,
+        ".unknown": 1,
+        ".css": 12,
+        ".jsx": 12
+      },
+      "test_file_count": 2
+    },
+    "ai_detection": {
+      "repo_score": 0.1021,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6809,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.6672
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/eslint.config.js": 0.1146,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/vite.config.js": 0.0366,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/App.jsx": 0.3054,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/main.jsx": 0.0336,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Team/Team.jsx": 0.3408,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Services/Services.jsx": 0.3174,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Pricing/Pricing.jsx": 0.4278,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Navbar/Navbar.jsx": 0.4944,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Gallery/Gallery.jsx": 0.3498,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Contact/Contact.jsx": 0.303,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Footer/Footer.jsx": 0.2814,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Testimonials/Testimonials.jsx": 0.2766,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Hero/Hero.jsx": 0.3228,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/mens-salon-demo/src/components/Booking/Booking.jsx": 0.5754
+      }
+    },
+    "frameworks": {
+      "code_imports": [
+        "React"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "React (JavaScript)": 1011,
+      "JSON": 659,
+      "HTML": 1570,
+      "Markdown": 0,
+      "CSS": 31473,
+      "React (JSX)": 10779,
+      "JSX": 15668,
+      "Express (JSX)": 2437
+    },
+    "docs": {
+      "description": "N/A",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 2.47,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0267,
+        "dev_span_months": 0.0083,
+        "contributors": 0.25,
+        "loc": 0.254,
+        "has_tests": 1.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.05,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.07,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.75
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/mens-salon-demo",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": true,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-03-11",
+    "pushed_at": "2026-03-14",
+    "size_kb": 76,
+    "license": null,
+    "language": "CSS",
+    "subscribers": 0,
+    "visibility": "private"
+  },
+  "full_report_snapshot": {
+    "repo_name": "mens-salon-demo",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-03-11",
+    "last_commit_date": "2026-03-14",
+    "loc_code": 2540,
+    "loc_comment": 13,
+    "loc_blank": 304,
+    "loc_files": 27,
+    "lang_count": 3,
+    "languages": "CSS | JavaScript | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 4,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Saini-Yogesh",
+    "branch_count": 1,
+    "meaningful_commit_count": 3,
+    "development_span_months": 0.1,
+    "commits_per_month": "40.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 6966,
+    "lexical_token": 7205,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "10.2%",
+    "frameworks": "code_imports: React",
+    "framework_frontend": "React",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 2.47,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "CSS (50.0%) | JavaScript (47.5%)",
+    "frameworks_percentage_bytes(>5%)": "React (82.9%) | Express (17.1%)",
+    "total_time_seconds": 5.75,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-03-11",
+    "loc_verified": 2540,
+    "tokenizer_method": "N/A"
+  }
+}

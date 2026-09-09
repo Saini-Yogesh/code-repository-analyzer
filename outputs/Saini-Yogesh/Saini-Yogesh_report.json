@@ -1,0 +1,216 @@
+{
+  "repo": "Saini-Yogesh",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Saini-Yogesh",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 10,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 10,
+      "last_update": "2026-09-02",
+      "first_commit": "2024-04-02",
+      "active_span_months": 29.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 10
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 0,
+      "source": "none",
+      "notes": "cloc failure"
+    },
+    "languages": {
+      "count": 0,
+      "list": [],
+      "breakdown": {},
+      "source": "none"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 0,
+      "lexical": 0
+    },
+    "duplication": {},
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": false,
+      "sampled_files": 0,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {}
+    },
+    "secrets": {
+      "files_scanned": 0,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": false,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 0,
+      "files": 0,
+      "extensions": {},
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0,
+      "confidence": "none",
+      "signals": {}
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "Markdown": 1332
+    },
+    "docs": {
+      "description": "<h1 align=\"center\">Hi \ud83d\udc4b, I'm Yogesh Saini</h1>",
+      "has_setup": false,
+      "doc_quality": "Low",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "N/A",
+    "repo_rating": {
+      "rating": 2.01,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0667,
+        "dev_span_months": 1.0,
+        "contributors": 0.25,
+        "loc": 0.0,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 0.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.0,
+    "stage4_seconds": 0.0,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.37
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Saini-Yogesh",
+    "owner": "Saini-Yogesh",
+    "description": "My personal repository",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-04-02",
+    "pushed_at": "2026-09-02",
+    "size_kb": 19,
+    "license": null,
+    "language": null,
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Saini-Yogesh",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-04-02",
+    "last_commit_date": "2026-09-02",
+    "loc_code": 0,
+    "loc_comment": 0,
+    "loc_blank": 0,
+    "loc_files": 0,
+    "lang_count": 0,
+    "languages": "",
+    "languages_frontend": "",
+    "languages_backend": "",
+    "commits": 10,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 10,
+    "development_span_months": 29.0,
+    "commits_per_month": "0.3 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 0,
+    "lexical_token": 0,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "N/A",
+    "ai_detection_percent": "0.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 2.01,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "N/A",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 5.37,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-04-02",
+    "loc_verified": 0,
+    "tokenizer_method": "N/A"
+  }
+}

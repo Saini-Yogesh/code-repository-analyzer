@@ -1,0 +1,342 @@
+{
+  "repo": "DataScope",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 5,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 5,
+      "last_update": "2026-07-09",
+      "first_commit": "2026-07-08",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 4
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 7024,
+      "breakdown": {
+        "code": 7024,
+        "comment": 322,
+        "blank": 708,
+        "nFiles": 38
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "breakdown": {
+        "JSX": {
+          "loc": 4301,
+          "files": 19,
+          "pct": 61.23
+        },
+        "JavaScript": {
+          "loc": 2041,
+          "files": 16,
+          "pct": 29.06
+        },
+        "CSS": {
+          "loc": 637,
+          "files": 2,
+          "pct": 9.07
+        },
+        "HTML": {
+          "loc": 45,
+          "files": 1,
+          "pct": 0.64
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 65328,
+      "lexical": 68718
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 41,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 41,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 2.0
+    },
+    "secrets": {
+      "files_scanned": 35,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 13,
+      "files": 41,
+      "extensions": {
+        ".unknown": 3,
+        ".js": 15,
+        ".mjs": 1,
+        ".html": 1,
+        ".css": 2,
+        ".jsx": 19
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0913,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6087,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.5494
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/server.js": 0.2376,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/mockData.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/pipelineService.js": 0.3012,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/jobService.js": 0.4356,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/lineageService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/authService.js": 0.1878,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/catalogService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/searchService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/impactService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/services/analyticsService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/routes/api.js": 0.2238,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/middlewares/error.js": 0.0708,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/config/databricks.js": 0.264,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/backend/controllers/apiController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/vite.config.js.timestamp-1783541566495-95372c8307b128.mjs": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/vite.config.js": 0.0834,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/App.jsx": 0.2268,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/main.jsx": 0.0318,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/context/AppContext.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/layouts/AppLayout.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/OwnershipCenter.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/MetadataAnalytics.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/Login.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/PipelineExplorer.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/JobExplorer.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/Search.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/Dashboard.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/Catalog.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/ImpactAnalysis.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/TableDetail.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/pages/Lineage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/components/LineageGraph.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/components/DataTable.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/DataScope/frontend/src/components/MetricCard.jsx": 0.5532
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "Databricks"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 1587,
+      "Markdown": 31591,
+      "React (JavaScript)": 2247,
+      "JavaScript": 71757,
+      "Express (JavaScript)": 6481,
+      "Next.js (JavaScript)": 8156,
+      "HTML": 3457,
+      "CSS": 16483,
+      "React (JSX)": 182171,
+      "JSX": 109
+    },
+    "docs": {
+      "description": "> **DataAtlas** is a full-stack observability and metadata intelligence platform for **Databricks Unity Catalog**. It provides real-time catalog browsing, lineage tracing, impact analysis, workflow mo...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Detected in README"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 2.36,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0333,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.5225,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.08,
+    "stage4_seconds": 0.45,
+    "stage5_seconds": 0.03,
+    "total_seconds": 5.96
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/DataScope",
+    "owner": "Saini-Yogesh",
+    "description": "DataAtlas is a full-stack observability and metadata intelligence platform for Databricks Unity Catalog. It provides real-time catalog browsing, lineage tracing, impact analysis, workflow monitoring, and ownership governance \u2014 all in a beautiful, production-ready web UI.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 1,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-07-08",
+    "pushed_at": "2026-07-09",
+    "size_kb": 132,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "DataScope",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-07-08",
+    "last_commit_date": "2026-07-09",
+    "loc_code": 7024,
+    "loc_comment": 322,
+    "loc_blank": 708,
+    "loc_files": 38,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 5,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 5,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 65328,
+    "lexical_token": 68718,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "9.1%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "Databricks",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 2.36,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (93.1%) | CSS (5.7%)",
+    "frameworks_percentage_bytes(>5%)": "React (92.6%)",
+    "total_time_seconds": 5.96,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Detected in README",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-07-08",
+    "loc_verified": 7024,
+    "tokenizer_method": "N/A"
+  }
+}

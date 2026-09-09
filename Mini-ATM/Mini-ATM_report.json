@@ -1,0 +1,276 @@
+{
+  "repo": "Mini-ATM",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mini-ATM",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 3,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 2,
+      "last_update": "2024-04-14",
+      "first_commit": "2024-04-14",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 2
+        },
+        {
+          "name": "yogesh saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 185,
+      "breakdown": {
+        "code": 185,
+        "comment": 2,
+        "blank": 5,
+        "nFiles": 2
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "C/C++ Header",
+        "C++"
+      ],
+      "list": [
+        "C/C++ Header",
+        "C++"
+      ],
+      "breakdown": {
+        "C/C++ Header": {
+          "loc": 105,
+          "files": 1,
+          "pct": 56.76
+        },
+        "C++": {
+          "loc": 80,
+          "files": 1,
+          "pct": 43.24
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 1540,
+      "lexical": 1503
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 2,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 100.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 2
+      },
+      "median_age_months": 28.8
+    },
+    "secrets": {
+      "files_scanned": 2,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 0,
+      "files": 2,
+      "extensions": {
+        ".h": 1,
+        ".cpp": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.0,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.939
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mini-ATM/ATM.h": 0.492,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Mini-ATM/miniATM.cpp": 0.432
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "C/C++ Header": 3839,
+      "C++": 3403,
+      "Markdown": 1343
+    },
+    "docs": {
+      "description": "![Screenshot 2024-04-14 223443](https://github.com/Saini-Yogesh/Mini-ATM/assets/156106869/2d1010ae-2c1d-43c0-a9eb-183369d1e7d4)",
+      "has_setup": true,
+      "doc_quality": "Medium",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 1.33,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.02,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.0185,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.02,
+    "stage4_seconds": 0.03,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.6
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/Mini-ATM",
+    "owner": "Saini-Yogesh",
+    "description": "A C++ masterpiece replicating traditional ATM functions in a compact design. Check balances, withdraw cash, and view transaction history effortlessly. Update your details on-the-go. With Mini-ATM, banking fits in your pocket, bringing simplicity and sophistication to personal finance.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 1,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [
+      "cpp",
+      "oops",
+      "oops-in-cpp"
+    ],
+    "default_branch": "main",
+    "created_at": "2024-04-14",
+    "pushed_at": "2024-04-14",
+    "size_kb": 125,
+    "license": null,
+    "language": "C++",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Mini-ATM",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-04-14",
+    "last_commit_date": "2024-04-14",
+    "loc_code": 185,
+    "loc_comment": 2,
+    "loc_blank": 5,
+    "loc_files": 2,
+    "lang_count": 1,
+    "languages": "C++",
+    "languages_frontend": "",
+    "languages_backend": "C++",
+    "commits": 3,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Yogesh Saini, yogesh saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 2,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 1540,
+    "lexical_token": 1503,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "0.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "Medium",
+    "repo_rating_score": 1.33,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "C++ (100.0%)",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 5.6,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 1,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-04-14",
+    "loc_verified": 185,
+    "tokenizer_method": "N/A"
+  }
+}

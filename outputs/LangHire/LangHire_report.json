@@ -1,0 +1,268 @@
+{
+  "repo": "LangHire",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 2,
+      "unique_contributors": 1,
+      "branch_count": 1,
+      "meaningful_commit_count": 2,
+      "last_update": "2025-09-17",
+      "first_commit": "2025-09-17",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 2
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 1599,
+      "breakdown": {
+        "code": 1599,
+        "comment": 346,
+        "blank": 415,
+        "nFiles": 9
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 1,
+      "core_count": 1,
+      "core_list": [
+        "Python"
+      ],
+      "list": [
+        "Python"
+      ],
+      "breakdown": {
+        "Python": {
+          "loc": 1599,
+          "files": 9,
+          "pct": 100.0
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 18049,
+      "lexical": 16799
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 10,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 10,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 11.7
+    },
+    "secrets": {
+      "files_scanned": 9,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": true,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 4,
+      "files": 10,
+      "extensions": {
+        ".py": 9,
+        ".unknown": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1426,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.6544,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.4444,
+        "smoothness": 0.6298
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/app.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/config.py": 0.1674,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/setup.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/src/langchain_utils/chains.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/src/langchain_utils/prompts.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/src/analyzer/skill_matcher.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/src/analyzer/scoring_engine.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/src/parsers/jd_parser.py": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/LangHire/src/parsers/resume_parser.py": 0.6
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "Python": 77183,
+      "YAML": 413,
+      "Markdown": 9863,
+      "Django (Python)": 12361
+    },
+    "docs": {
+      "description": "An AI-powered resume analysis tool that evaluates candidates against job descriptions using LangChain and Google Gemini API. Get comprehensive insights, skill gap analysis, and hiring recommendations.",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Detected in README"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 1.22,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0133,
+        "dev_span_months": 0.0,
+        "contributors": 0.25,
+        "loc": 0.1599,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.04,
+    "stage4_seconds": 0.41,
+    "stage5_seconds": 0.01,
+    "total_seconds": 5.63
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/LangHire",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2025-09-17",
+    "pushed_at": "2025-09-17",
+    "size_kb": 31,
+    "license": null,
+    "language": "Python",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "LangHire",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2025-09-17",
+    "last_commit_date": "2025-09-17",
+    "loc_code": 1599,
+    "loc_comment": 346,
+    "loc_blank": 415,
+    "loc_files": 9,
+    "lang_count": 1,
+    "languages": "Python",
+    "languages_frontend": "",
+    "languages_backend": "Python",
+    "commits": 2,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 2,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 18049,
+    "lexical_token": 16799,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "14.3%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.22,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "Python (100.0%)",
+    "frameworks_percentage_bytes(>5%)": "Django (100.0%)",
+    "total_time_seconds": 5.63,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Detected in README",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2025-09-17",
+    "loc_verified": 1599,
+    "tokenizer_method": "N/A"
+  }
+}

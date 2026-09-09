@@ -1,0 +1,327 @@
+{
+  "repo": "iNoteBook",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 31,
+      "unique_contributors": 1,
+      "branch_count": 2,
+      "meaningful_commit_count": 29,
+      "last_update": "2024-07-11",
+      "first_commit": "2024-06-24",
+      "active_span_months": 0.5,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Yogesh Saini",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 33
+        }
+      ],
+      "all_contributors_count": 1,
+      "source": "git"
+    },
+    "loc": {
+      "value": 1053,
+      "breakdown": {
+        "code": 1053,
+        "comment": 68,
+        "blank": 56,
+        "nFiles": 23
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 3,
+      "core_count": 3,
+      "core_list": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "list": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 1000,
+          "files": 20,
+          "pct": 94.97
+        },
+        "HTML": {
+          "loc": 38,
+          "files": 1,
+          "pct": 3.61
+        },
+        "CSS": {
+          "loc": 15,
+          "files": 2,
+          "pct": 1.42
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 7511,
+      "lexical": 8091
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 24,
+      "pct_untouched_1yr": 100.0,
+      "pct_untouched_2yr": 100.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 24
+      },
+      "median_age_months": 26.3
+    },
+    "secrets": {
+      "files_scanned": 20,
+      "findings_count": 3,
+      "findings": [
+        {
+          "file": "db.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/db.js",
+          "type": "DB Connection String"
+        },
+        {
+          "file": "auth.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/routes/auth.js",
+          "type": "Generic Secret"
+        },
+        {
+          "file": "fetchuser.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/middleware/fetchuser.js",
+          "type": "Generic Secret"
+        }
+      ],
+      "clean": false,
+      "risk_level": "medium"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 9,
+      "files": 24,
+      "extensions": {
+        ".unknown": 1,
+        ".js": 20,
+        ".html": 1,
+        ".css": 2
+      },
+      "test_file_count": 1
+    },
+    "ai_detection": {
+      "repo_score": 0.0809,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.5396,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.5399
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/index.js": 0.0918,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/db.js": 0.048,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/routes/auth.js": 0.5916,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/routes/notes.js": 0.4956,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/models/Notes.js": 0.0888,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/models/User.js": 0.0726,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/backend/middleware/fetchuser.js": 0.099,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/App.js": 0.1848,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/index.js": 0.0744,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/context/notes/NoteState.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/Alert.js": 0.09,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/AddNote.js": 0.3162,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/About.js": 0.0222,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/Navbar.js": 0.2322,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/Signup.js": 0.423,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/Login.js": 0.2874,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/Home.js": 0.033,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/Notes.js": 0.57,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/iNoteBook/src/components/NoteItem.js": 0.1458
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "MongoDB"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 1638,
+      "Markdown": 3359,
+      "React (JavaScript)": 17811,
+      "JavaScript": 1351,
+      "Express (JavaScript)": 7742,
+      "Next.js (JavaScript)": 5422,
+      "HTML": 1444,
+      "CSS": 391
+    },
+    "docs": {
+      "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "None"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 2.57,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.2067,
+        "dev_span_months": 0.0417,
+        "contributors": 0.25,
+        "loc": 0.1053,
+        "has_tests": 1.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.025,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.02,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.2,
+    "stage5_seconds": 0.0,
+    "total_seconds": 6.25
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/iNoteBook",
+    "owner": "Saini-Yogesh",
+    "description": null,
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2024-06-25",
+    "pushed_at": "2024-07-11",
+    "size_kb": 984,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 1,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "iNoteBook",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2024-06-24",
+    "last_commit_date": "2024-07-11",
+    "loc_code": 1053,
+    "loc_comment": 68,
+    "loc_blank": 56,
+    "loc_files": 23,
+    "lang_count": 3,
+    "languages": "JavaScript | HTML | CSS",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 31,
+    "contributors": 1,
+    "all_contributors_count": 1,
+    "all_contributors": "Yogesh Saini",
+    "branch_count": 2,
+    "meaningful_commit_count": 29,
+    "development_span_months": 0.5,
+    "commits_per_month": "62.0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 7511,
+    "lexical_token": 8091,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "8.1%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "MongoDB",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Review Required (3)",
+    "documentation_quality": "High",
+    "repo_rating_score": 2.57,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (94.6%)",
+    "frameworks_percentage_bytes(>5%)": "React (57.5%) | Express (25.0%) | Next.js (17.5%)",
+    "total_time_seconds": 6.25,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "None",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "creation_date": "2024-06-25",
+    "loc_verified": 1053,
+    "tokenizer_method": "N/A"
+  }
+}

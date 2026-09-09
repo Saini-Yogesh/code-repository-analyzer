@@ -1,0 +1,135 @@
+[
+  {
+    "number": 7,
+    "title": "Install and Configure Vercel Speed Insights",
+    "state": "closed",
+    "created_at": "2026-06-20T07:12:48+00:00",
+    "updated_at": "2026-06-20T07:14:09+00:00",
+    "closed_at": "2026-06-20T07:14:09+00:00",
+    "merged_at": "2026-06-20T07:14:09+00:00",
+    "user": {
+      "login": "vercel[bot]"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/7",
+    "additions": 14,
+    "deletions": 0,
+    "changed_files": 1,
+    "comments": 1,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 6,
+    "title": "Install Vercel Speed Insights",
+    "state": "closed",
+    "created_at": "2026-06-20T07:02:52+00:00",
+    "updated_at": "2026-06-20T07:09:42+00:00",
+    "closed_at": "2026-06-20T07:09:42+00:00",
+    "merged_at": "2026-06-20T07:09:42+00:00",
+    "user": {
+      "login": "vercel[bot]"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/6",
+    "additions": 48,
+    "deletions": 38,
+    "changed_files": 3,
+    "comments": 1,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 5,
+    "title": "UI was Enhanced",
+    "state": "closed",
+    "created_at": "2025-03-30T06:27:42+00:00",
+    "updated_at": "2025-03-30T06:30:19+00:00",
+    "closed_at": "2025-03-30T06:30:19+00:00",
+    "merged_at": "2025-03-30T06:30:19+00:00",
+    "user": {
+      "login": "Sahil7811"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/5",
+    "additions": 65,
+    "deletions": 24,
+    "changed_files": 5,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 4,
+    "title": "prompt was improved and LeftBar was updated",
+    "state": "closed",
+    "created_at": "2025-03-29T20:12:20+00:00",
+    "updated_at": "2025-03-29T20:16:05+00:00",
+    "closed_at": "2025-03-29T20:16:04+00:00",
+    "merged_at": "2025-03-29T20:16:04+00:00",
+    "user": {
+      "login": "Sahil7811"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/4",
+    "additions": 53,
+    "deletions": 66,
+    "changed_files": 3,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 2
+  },
+  {
+    "number": 3,
+    "title": "LeftBar AiResponses section was added",
+    "state": "closed",
+    "created_at": "2025-03-29T11:27:04+00:00",
+    "updated_at": "2025-03-29T11:27:49+00:00",
+    "closed_at": "2025-03-29T11:27:49+00:00",
+    "merged_at": "2025-03-29T11:27:49+00:00",
+    "user": {
+      "login": "Sahil7811"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/3",
+    "additions": 499,
+    "deletions": 159,
+    "changed_files": 6,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 2,
+    "title": "LeftBar was added",
+    "state": "closed",
+    "created_at": "2025-03-29T10:29:51+00:00",
+    "updated_at": "2025-03-29T10:30:08+00:00",
+    "closed_at": "2025-03-29T10:30:08+00:00",
+    "merged_at": "2025-03-29T10:30:08+00:00",
+    "user": {
+      "login": "Sahil7811"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/2",
+    "additions": 271,
+    "deletions": 11,
+    "changed_files": 6,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 1,
+    "title": "userSchema was made in backend",
+    "state": "closed",
+    "created_at": "2025-03-29T09:08:05+00:00",
+    "updated_at": "2025-03-29T09:10:35+00:00",
+    "closed_at": "2025-03-29T09:10:35+00:00",
+    "merged_at": "2025-03-29T09:10:35+00:00",
+    "user": {
+      "login": "Sahil7811"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot/pull/1",
+    "additions": 885,
+    "deletions": 61,
+    "changed_files": 9,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  }
+]

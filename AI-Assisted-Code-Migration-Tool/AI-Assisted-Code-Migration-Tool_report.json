@@ -1,0 +1,324 @@
+{
+  "repo": "AI-Assisted-Code-Migration-Tool",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 8,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 6,
+      "last_update": "2026-01-18",
+      "first_commit": "2026-01-17",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 7
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 870,
+      "breakdown": {
+        "code": 870,
+        "comment": 42,
+        "blank": 153,
+        "nFiles": 21
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "JavaScript",
+        "CSS",
+        "JSX",
+        "HTML"
+      ],
+      "list": [
+        "JavaScript",
+        "CSS",
+        "JSX",
+        "HTML"
+      ],
+      "breakdown": {
+        "JavaScript": {
+          "loc": 289,
+          "files": 11,
+          "pct": 33.22
+        },
+        "CSS": {
+          "loc": 286,
+          "files": 2,
+          "pct": 32.87
+        },
+        "JSX": {
+          "loc": 252,
+          "files": 7,
+          "pct": 28.97
+        },
+        "HTML": {
+          "loc": 43,
+          "files": 1,
+          "pct": 4.94
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 4039,
+      "lexical": 4219
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 24,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 0,
+        "6m-1yr": 24,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 7.7
+    },
+    "secrets": {
+      "files_scanned": 18,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 13,
+      "files": 24,
+      "extensions": {
+        ".unknown": 3,
+        ".html": 1,
+        ".js": 11,
+        ".css": 2,
+        ".jsx": 7
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0881,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.5874,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.5396
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/App.js": 0.012,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/index.js": 0.075,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/services/themeStyles.js": 0.2562,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/services/api.js": 0.051,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/utils/exportFile.js": 0.0528,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/Home.jsx": 0.4788,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/DiffViewer.jsx": 0.0954,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/ErrorBanner.jsx": 0.0444,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/SessionHistory.jsx": 0.1452,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/CodeEditor.jsx": 0.0732,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/MigrationOptions.jsx": 0.111,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/client/src/components/EditableMigratedEditor.jsx": 0.0744,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/server/src/index.js": 0.1152,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/server/src/services/prompt.builder.js": 0.2694,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/server/src/services/ai.service.js": 0.24,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/server/src/routes/migration.routes.js": 0.0378,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/server/src/controllers/migration.controller.js": 0.2322,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/AI-Assisted-Code-Migration-Tool/server/src/models/MigrationSession.js": 0.0594
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "React",
+        "Express"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "MongoDB"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 1808,
+      "Markdown": 6120,
+      "HTML": 2041,
+      "JavaScript": 5922,
+      "React (JavaScript)": 894,
+      "CSS": 5968,
+      "React (JSX)": 6070,
+      "JSX": 1388,
+      "Express (JavaScript)": 3234
+    },
+    "docs": {
+      "description": "An AI-powered developer tool that converts **legacy JavaScript code** into **modern ES6+ JavaScript or TypeScript** with strict typing, side-by-side diff comparison, export support, and migration hist...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Detected in README"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.53,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0533,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.087,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.01,
+    "stage2_seconds": 0.03,
+    "stage4_seconds": 0.12,
+    "stage5_seconds": 0.0,
+    "total_seconds": 5.9
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true
+  },
+  "github_api": {
+    "available": true,
+    "full_name": "Saini-Yogesh/AI-Assisted-Code-Migration-Tool",
+    "owner": "Saini-Yogesh",
+    "description": "An AI-powered developer tool that converts legacy JavaScript code into modern ES6+ JavaScript or TypeScript with strict typing, side-by-side diff comparison, export support, and migration history.",
+    "is_private": false,
+    "is_fork": false,
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "topics": [],
+    "default_branch": "main",
+    "created_at": "2026-01-17",
+    "pushed_at": "2026-01-18",
+    "size_kb": 1199,
+    "license": null,
+    "language": "JavaScript",
+    "subscribers": 0,
+    "visibility": "public"
+  },
+  "full_report_snapshot": {
+    "repo_name": "AI-Assisted-Code-Migration-Tool",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-01-17",
+    "last_commit_date": "2026-01-18",
+    "loc_code": 870,
+    "loc_comment": 42,
+    "loc_blank": 153,
+    "loc_files": 21,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 8,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 6,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 4039,
+    "lexical_token": 4219,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "8.8%",
+    "frameworks": "package.json: react,express | code_imports: React,Express",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "MongoDB",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.53,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (68.6%) | CSS (23.4%) | HTML (8.0%)",
+    "frameworks_percentage_bytes(>5%)": "React (68.3%) | Express (31.7%)",
+    "total_time_seconds": 5.9,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": true,
+    "deployment_env": "",
+    "environment_variables": "Detected in README",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "creation_date": "2026-01-17",
+    "loc_verified": 870,
+    "tokenizer_method": "N/A"
+  }
+}

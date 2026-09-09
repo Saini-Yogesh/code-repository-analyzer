@@ -1,0 +1,59 @@
+[
+  {
+    "number": 4,
+    "title": "feat: adding the new logo and banner",
+    "state": "closed",
+    "created_at": "2026-09-02T18:19:48+00:00",
+    "updated_at": "2026-09-02T18:20:26+00:00",
+    "closed_at": "2026-09-02T18:20:26+00:00",
+    "merged_at": "2026-09-02T18:20:26+00:00",
+    "user": {
+      "login": "yogesh-saini-data"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/Second-Brain/pull/4",
+    "additions": 0,
+    "deletions": 0,
+    "changed_files": 2,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 2,
+    "title": "chore: bump version to 0.9.0",
+    "state": "closed",
+    "created_at": "2026-08-27T19:01:37+00:00",
+    "updated_at": "2026-08-27T19:01:58+00:00",
+    "closed_at": "2026-08-27T19:01:58+00:00",
+    "merged_at": "2026-08-27T19:01:58+00:00",
+    "user": {
+      "login": "yogesh-saini-data"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/Second-Brain/pull/2",
+    "additions": 1,
+    "deletions": 1,
+    "changed_files": 1,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  },
+  {
+    "number": 1,
+    "title": "feat: migrate to Groq Whisper transcription and multi-key cycling",
+    "state": "closed",
+    "created_at": "2026-08-27T18:57:17+00:00",
+    "updated_at": "2026-08-27T18:58:02+00:00",
+    "closed_at": "2026-08-27T18:58:02+00:00",
+    "merged_at": "2026-08-27T18:58:02+00:00",
+    "user": {
+      "login": "yogesh-saini-data"
+    },
+    "html_url": "https://github.com/Saini-Yogesh/Second-Brain/pull/1",
+    "additions": 1109,
+    "deletions": 544,
+    "changed_files": 17,
+    "comments": 0,
+    "review_comments": 0,
+    "commits": 1
+  }
+]

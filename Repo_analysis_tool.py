@@ -4145,6 +4145,7 @@ Examples:
             if not os.path.isfile(args.batch):
                 print(f"[!] Batch file not found: {args.batch}")
                 sys.exit(1)
+            os.makedirs(args.output_dir, exist_ok=True)
             with open(args.batch, "r", encoding="utf-8") as f:
                 targets = [line.strip().strip('"') for line in f if line.strip() and not line.startswith("#")]
             print(f"[Batch] Processing {len(targets)} repositories...")

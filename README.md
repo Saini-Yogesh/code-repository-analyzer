@@ -1,165 +1,158 @@
-# Repository Intelligence CLI Tool (v3.0.0)
+# Repository Intelligence Batch Analyzer
 
-A high-performance, multi-stage static analysis pipeline designed to transform raw codebases into actionable intelligence. This tool performs deep analysis on Git metadata, code metrics, architectural patterns, and security risks.
-
-## 🛠️ Setup & Requirement
-
-### 1. Python Environment
-
-Ensure you have Python 3.8+ installed. Install the required libraries:
-
-### 2. Create Virtual Environment
-
-```powershell
-python -m venv venv
-```
-
-### 3. Activate Virtual Environment
-
-```
-.\venv\Scripts\Activate.ps1
-```
-
-### 4. Variable Naming Consistency
-
-```powershell
-pip install -r requirements.txt
-```
-
-### 5. Install `cloc` (Critical for accuracy)
-
-The tool uses `cloc` to calculate precise "Ground Truth" line counts and language breakdowns.
-
-#### Windows Setup
-
-* **Recommendation**: Install via Chocolatey:
-
-  ```powershell
-  choco install cloc
-  ```
-
-  Or place `cloc.exe` in the tool directory or your system's PATH.
-
-#### macOS Setup
-
-If you are using macOS, you can install `cloc` using Homebrew:
-
-* **Install Homebrew (if not installed)**:
-  ```bash
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
-* **Install cloc**:
-  ```bash
-  brew install cloc
-  ```
-
-#### Linux Setup
-
-For Linux distributions, install `cloc` via the package manager:
-
-* **Debian/Ubuntu**:
-  ```bash
-  sudo apt update && sudo apt install -y cloc
-  ```
-* **RedHat/Fedora**:
-  ```bash
-  sudo dnf install -y cloc
-  ```
-* **Arch Linux**:
-  ```bash
-  sudo pacman -S cloc
-  ```
-
-#### Verify Installation
-
-```bash
-cloc --version
-```
-
-If the version number is displayed successfully, `cloc` is installed correctly.
-
-### 6 Git Installation
-
-Ensure `git` is installed and available in your terminal so the tool can clone remote repositories and analyze commit history.
-
-## 📖 Usage
-
-### Interactive Menu (Recommended)
-
-Simply run the tool without arguments for an easy-to-use menu:
-
-```powershell
-python Repo_analysis_tool.py
-```
-
-### Batch Mode
-
-To analyze multiple repositories at once, create a `repos.txt` file (one URL or path per line):
-
-```powershell
-python Repo_analysis_tool.py --batch repos.txt -o ./outputs
-```
-
-### CLI Commands
-
-* **Analyze Local Directory**:
-  ```bash
-  python Repo_analysis_tool.py -i "C:\path\to\project" -o .\outputs --mode full
-  ```
-* **Analyze Remote Repository**:
-  ```bash
-  python Repo_analysis_tool.py -i https://github.com/user/repo.git --mode full
-  ```
-* **Analyze Remote Repository with GitHub PR Analytics**:
-  Set the environment variable (or pass `--github-token`) to run the PR analytics Stage 0.5:
-  ```powershell
-  $env:GITHUB_TOKEN="your_pat_token"
-  python Repo_analysis_tool.py -i https://github.com/user/repo.git
-  ```
-
-## 🚀 Key Features
-
-### 1. Multi-Stage Analysis Pipeline
-
-The tool executes analysis in organized layers to ensure a separation between ground truth (verified tools) and heuristic estimates:
-
-- **Stage 0 (Git Meta)**: Extracts commit counts, unique & total contributor diversity, active span, and history integrity.
-- **Stage 0.5 (GitHub PR Analytics)**: Optionally extracts Pull Request metrics (total, open, closed, merged counts) and dumps full PR metadata to OS-safe JSON files if GITHUB_TOKEN or GH_TOKEN env is available.
-- **Stage 1 (Structure)**: Scans directory hierarchy for architectural signals and framework manifests.
-- **Stage 2 (Deep Metrics)**: Calculates verified LOC (via `cloc`), LLM token density (via `tiktoken`), and cross-file duplication.
-- **Stage 3 (AI Detection)**: Uses entropy and token distribution heuristics to identify AI-generated code.
-- **Stage 4 (Intelligence)**: Categorizes Frontend vs. Backend logic, detects infrastructure (Databases, Cloud, APIs) at all depths, and evaluates documentation quality.
-- **Stage 5 (Security)**: Scans for exposed credentials, AWS keys, and database connection strings.
-
-### 2. Advanced Infrastructure Detection (v3.0.0)
-
-- **Canonical Reporting**: Automatically groups database aliases (e.g., `postgres` and `postgresql` → `PostgreSQL`).
-- **Greedy Scanning**: Peeks inside source code files (`.py`, `.js`, `.go`, etc.) to identify library imports and connection strings.
-- **Full-Depth Scanning**: Recursively analyzes the entire repository without depth limits.
-
-### 3. Professional CSV Reporting
-
-Generates standardized CSV outputs for at-scale repository auditing:
-
-- **`summary_all.csv`**: A comprehensive dataset featuring 40 parameters including contributor mapping, complexity, architectural splits, and security findings.
-- **`summary_metadata.csv`**: A curated executive summary focused on commercial usage, security status, and core architectural labels.
-
-*For a detailed breakdown of what each CSV column means, please refer to the [`csv_schema.md`](./csv_schema.md) document.*
-*For more technical insights on how the tool processes data, read the [`architecture.md`](./architecture.md).*
-
-### 4. Robust Input Handling
-
-- **Quote-Resistant Paths**: Automatically strips double-quotes from paths pasted from Windows File Explorer ("Copy as path").
-- **Batch Processing**: Supports a single `.txt` file containing a mix of local directory paths and remote Git URLs.
-
-## 📊 Outputs
-
-The tool generates professional-grade reports in the `./outputs` folder:
-
-1. **`summary_all.csv`**: Master dataset for data processing and audit reporting.
-2. **`summary_metadata.csv`**: Curated metadata report for executive review.
-3. **`{repo}_report.json`**: Deep-dive technical breakdown for each analyzed repository.
+A lightweight tool that scans all repositories owned by a GitHub user, collects various metrics (LOC, language breakdown, CI status, etc.) and writes detailed reports to an `outputs` directory. The workflow can be run locally or automatically via GitHub Actions.
 
 ---
 
-*Developed for Advanced Repository Intelligence & Technical Auditing.*
+## Table of Contents
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Setup &amp; Running Locally](#setup--running-locally)
+- [Running on GitHub Actions](#running-on-github-actions)
+- [Configuration Details](#configuration-details)
+- [Customizing the Analysis](#customizing-the-analysis)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Overview
+
+The repository contains two main components:
+
+1. **`fetch_all_repo.py`** – Retrieves every repository URL for the specified GitHub account (public repos by default; private repos when a token is supplied).
+2. **`Repo_analysis_tool.py`** – Performs the heavy‑lifting analysis (cloc, commit history, CI detection, etc.) on the cloned repositories and writes JSON/CSV reports under `outputs/`.
+
+A GitHub Actions workflow (`.github/workflows/analyze_repos.yml`) ties everything together, allowing you to trigger a full batch run with a single button click.
+
+---
+
+## Prerequisites
+
+| Requirement                                       | Version                                                                                                                                                                   |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Python**                                  | `3.10` (or later) – the workflow uses `actions/setup-python@v5`                                                                                                      |
+| **Git**                                     | Any recent version (required for cloning)                                                                                                                                 |
+| **cloc**                                    | Installed by the workflow (`sudo apt-get install -y cloc`). If running locally, install it via your package manager (`brew install cloc`, `apt install cloc`, etc.) |
+| **GitHub Personal Access Token** (optional) | Needs`repo` scope for private repositories. Store it as a secret named `GH_TOKEN`.                                                                                    |
+| **GitHub Username**                         | Store as a secret named`GH_USERNAME`.                                                                                                                                   |
+
+## Setup & Running Locally
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Saini-Yogesh/code-repository-analyzer.git
+   cd code-repository-analyzer
+   ```
+2. **Create a `.env` file** (or export environment variables). Example based on `env.example`:
+
+   ```text
+   GH_TOKEN=your-github-personal-access-token   # optional – required for private repos
+   GH_USERNAME=your-github-username
+   ```
+
+   > **Tip:** Omit `GH_TOKEN` if you only need to analyse public repositories.
+   >
+3. **Install Python dependencies**
+
+   ```bash
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+4. **Fetch all repository URLs**
+
+   ```bash
+   python fetch_all_repo.py
+   ```
+
+   This creates a `clone_urls.txt` file containing one URL per line.
+5. **Run the analysis**
+
+   ```bash
+   python Repo_analysis_tool.py --batch clone_urls.txt --github-token "$GH_TOKEN" --output-dir ./outputs
+   ```
+
+   All reports are placed in the `outputs/` directory.
+6. **(Optional) Windows helper**
+
+   ```powershell
+   ./run_analysis.bat
+   ```
+
+   The batch file runs the three steps above sequentially.
+
+---
+
+## Running on GitHub Actions
+
+The repo ships with a ready‑to‑use workflow that performs the same steps on an `ubuntu-latest` runner.
+
+### 1️⃣ Add the required secrets
+
+1. Go to **Settings → Secrets and variables → Actions → New repository secret**.
+2. Create the following secrets (replace the example values with your own):
+
+   - `GH_TOKEN` – your personal access token (optional for public repos only).
+   - `GH_USERNAME` – your GitHub user name.
+
+   > **Important:** Secret names **must not** start with `GITHUB_`.
+   >
+
+### 2️⃣ Trigger the workflow
+
+- Navigate to the **Actions** tab → select **Repository Intelligence Batch Analysis** → click **Run workflow**.
+- The workflow will:
+  1. Checkout the repository.
+  2. Install `cloc` and Python dependencies.
+  3. Run `fetch_all_repo.py`.
+  4. Execute `Repo_analysis_tool.py` on every repo.
+  5. Push the generated `outputs/` files to a new branch named `output-of-<username>` (or `output-of-<username>-N` if the branch already exists).
+
+### 3️⃣ View the results
+
+- After the run finishes, check the new branch in the **Code** view. The `outputs/` folder contains all CSV/JSON reports.
+- You can also download the artifacts directly from the workflow run page.
+
+---
+
+## Configuration Details
+
+| File                                    | Purpose               | Customisation points                                                           |
+| --------------------------------------- | --------------------- | ------------------------------------------------------------------------------ |
+| `fetch_all_repo.py`                   | Retrieves repo URLs.  | Change pagination or add filters.                                              |
+| `Repo_analysis_tool.py`               | Core analysis engine. | Adjust rating thresholds, enable/disable stages, or add new metric collectors. |
+| `.github/workflows/analyze_repos.yml` | CI pipeline.          | Edit Python version, environment variables, or output‑branch naming.          |
+
+---
+
+## Customizing the Analysis
+
+- **Adjust Rating Criteria** – Edit the `RATING_CRITERIA` dictionary in `Repo_analysis_tool.py`.
+- **Skip Files/Directories** – Modify `SKIP_DIRS` and `SKIP_EXTENSIONS` in the same file.
+- **Add New Metrics** – Implement additional functions and call them from the analysis pipeline.
+
+---
+
+## Troubleshooting
+
+- **`actions/checkout` token error** – Ensure the `GH_TOKEN` secret exists. If you only need public repos, the workflow will fall back to the built‑in `github.token`.
+- **Rate‑limit errors** – Use a token with a higher quota or add a short `sleep` between API calls in `fetch_all_repo.py`.
+- **Missing `cloc`** – Install it locally (`brew install cloc`, `apt install cloc`, etc.). The workflow installs it automatically.
+- **Empty `outputs/`** – Verify `clone_urls.txt` contains URLs and that the token (if used) has cloning permission.
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+- Open an issue for bugs or feature requests.
+- Fork the repo and submit a pull request.
+- Add support for other VCS providers (GitLab, Bitbucket) – placeholders already exist.
+
+---
+
+*Happy analysing!*

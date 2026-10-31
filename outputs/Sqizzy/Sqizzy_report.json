@@ -1,0 +1,362 @@
+{
+  "repo": "Sqizzy",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 14,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 14,
+      "last_update": "2026-10-03",
+      "first_commit": "2026-10-02",
+      "active_span_months": 0.0,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 13
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 6905,
+      "breakdown": {
+        "code": 6905,
+        "comment": 146,
+        "blank": 751,
+        "nFiles": 62
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 4,
+      "core_count": 4,
+      "core_list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "list": [
+        "JSX",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "breakdown": {
+        "JSX": {
+          "loc": 4671,
+          "files": 28,
+          "pct": 67.65
+        },
+        "JavaScript": {
+          "loc": 2127,
+          "files": 32,
+          "pct": 30.8
+        },
+        "CSS": {
+          "loc": 71,
+          "files": 1,
+          "pct": 1.03
+        },
+        "HTML": {
+          "loc": 36,
+          "files": 1,
+          "pct": 0.52
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 83811,
+      "lexical": 88702
+    },
+    "duplication": {
+      "token_weighted": 0.0587,
+      "duplicate_tokens": 4916,
+      "exact_duplicate_files": 1,
+      "similar_clusters": [
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/contactRoutes.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/feedbackRoutes.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/waitlistRoutes.js"
+        ],
+        [
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/backend_mirror/products.js",
+          "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/utils/seedData.js"
+        ]
+      ]
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 66,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 66,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 0.9
+    },
+    "secrets": {
+      "files_scanned": 61,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 22,
+      "files": 66,
+      "extensions": {
+        ".unknown": 3,
+        ".js": 33,
+        ".html": 1,
+        ".jsx": 28,
+        ".css": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1506,
+      "confidence": "high",
+      "signals": {
+        "uniformity": 0.5194,
+        "duplication": 0.1466,
+        "similarity": 0.082,
+        "cluster_density": 0.0492,
+        "naming": 0.0,
+        "smoothness": 0.4189
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/vite.config.js": 0.048,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/postcss.config.js": 0.0126,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/tailwind.config.js": 0.471,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/App.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/main.jsx": 0.0426,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/backend_mirror/products.js": 1.0,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/layout/Footer.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/layout/AnnouncementBar.jsx": 0.18,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/layout/Navbar.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/common/SqizzyLogo.jsx": 0.399,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/common/JarComparison.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/common/SqizzyBottle.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/common/WaitlistModal.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/common/LoadingSkeleton.jsx": 0.1608,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/components/common/SEO.jsx": 0.3012,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/services/api.js": 0.5352,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/contexts/AdminAuthContext.jsx": 0.2208,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/ProductsPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/PrivacyPolicyPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/TermsPage.jsx": 0.4728,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/FeedbackPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/OurStoryPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/HomePage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/ProductDetailPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/NotFoundPage.jsx": 0.3372,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/ComingSoonPage.jsx": 0.4326,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/WaitlistPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/FAQPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/AboutPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/ContactPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/admin/AdminLoginPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/admin/AdminMethodologyPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/pages/admin/AdminDashboardPage.jsx": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/frontend/src/analytics/tracker.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/server.js": 0.4998,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/utils/seedData.js": 1.0,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/utils/seed.js": 0.1332,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/controllers/feedbackController.js": 0.2982,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/controllers/adminController.js": 0.348,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/controllers/contactController.js": 0.2724,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/controllers/analyticsController.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/controllers/waitlistController.js": 0.4752,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/controllers/productController.js": 0.1788,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/AnalyticsEvent.js": 0.321,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/Contact.js": 0.0732,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/Product.js": 0.3132,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/Session.js": 0.1554,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/Visitor.js": 0.1626,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/Waitlist.js": 0.0978,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/models/Feedback.js": 0.0966,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/services/analyticsStore.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/contactRoutes.js": 0.4336,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/adminRoutes.js": 0.0492,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/waitlistRoutes.js": 0.4354,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/productRoutes.js": 0.0288,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/feedbackRoutes.js": 0.4342,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/routes/analyticsRoutes.js": 0.1758,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/middleware/rateLimiter.js": 0.177,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/middleware/auth.js": 0.1776,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/middleware/errorHandler.js": 0.0522,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Sqizzy/backend/src/config/db.js": 0.1416
+      }
+    },
+    "frameworks": {
+      "package.json": [
+        "react",
+        "express"
+      ],
+      "code_imports": [
+        "Express",
+        "React"
+      ]
+    },
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [
+        "MongoDB"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JSON": 2777,
+      "Markdown": 10562,
+      "React (JavaScript)": 306,
+      "JavaScript": 64128,
+      "HTML": 2839,
+      "XML": 2414,
+      "React (JSX)": 240484,
+      "CSS": 1939,
+      "Express (JavaScript)": 7316,
+      "Next.js (JavaScript)": 17972
+    },
+    "docs": {
+      "description": "> **Shake. Squeeze. Drizzle.** The modern, all-natural squeeze peanut butter brand engineered for zero stirring, zero oily mess, and effortless drizzling.",
+      "has_setup": true,
+      "doc_quality": "Medium",
+      "env_vars": "Mapped (.env file present)"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Moderate",
+    "repo_rating": {
+      "rating": 2.48,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0933,
+        "dev_span_months": 0.0,
+        "contributors": 0.5,
+        "loc": 0.5212,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.02,
+    "stage2_seconds": 0.11,
+    "stage4_seconds": 0.57,
+    "stage5_seconds": 0.03,
+    "total_seconds": 5.38
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": false
+  },
+  "github_api": {
+    "available": false,
+    "reason": "401 {\"message\": \"Bad credentials\", \"documentation_url\": \"https://docs.github.com/rest\", \"status\": \"401\"}"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Sqizzy",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-10-02",
+    "last_commit_date": "2026-10-03",
+    "loc_code": 6905,
+    "loc_comment": 146,
+    "loc_blank": 751,
+    "loc_files": 62,
+    "lang_count": 3,
+    "languages": "JavaScript | CSS | HTML",
+    "languages_frontend": "CSS | HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 14,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 14,
+    "development_span_months": 0.0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 83811,
+    "lexical_token": 88702,
+    "duplication_weighted_percent": "5.9%",
+    "code_complexity": "Moderate",
+    "ai_detection_percent": "15.1%",
+    "frameworks": "package.json: react,express | code_imports: Express,React",
+    "framework_frontend": "React",
+    "framework_backend": "Express",
+    "databases_used": "MongoDB",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "Medium",
+    "repo_rating_score": 2.48,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (98.6%)",
+    "frameworks_percentage_bytes(>5%)": "React (90.5%) | Next.js (6.8%)",
+    "total_time_seconds": 5.38,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": false,
+    "deployment_env": "",
+    "environment_variables": "Mapped (.env file present)",
+    "stars": "N/A",
+    "forks": "N/A",
+    "watchers": "N/A",
+    "open_issues": "N/A",
+    "creation_date": "N/A",
+    "loc_verified": 6905,
+    "tokenizer_method": "N/A"
+  }
+}

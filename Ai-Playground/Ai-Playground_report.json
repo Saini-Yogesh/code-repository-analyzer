@@ -1,0 +1,278 @@
+{
+  "repo": "Ai-Playground",
+  "target_path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground",
+  "mode": "full",
+  "is_git": true,
+  "ground_truth": {
+    "git": {
+      "commit_count": 10,
+      "unique_contributors": 2,
+      "branch_count": 1,
+      "meaningful_commit_count": 10,
+      "last_update": "2026-10-12",
+      "first_commit": "2026-10-03",
+      "active_span_months": 0.3,
+      "history_integrity": {
+        "appears_intact": true,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [
+        {
+          "name": "Saini-Yogesh",
+          "email": "yogesh.saini4002@gmail.com",
+          "commits": 9
+        },
+        {
+          "name": "Yogesh Saini",
+          "email": "156106869+Saini-Yogesh@users.noreply.github.com",
+          "commits": 1
+        }
+      ],
+      "all_contributors_count": 2,
+      "source": "git"
+    },
+    "loc": {
+      "value": 1684,
+      "breakdown": {
+        "code": 1684,
+        "comment": 156,
+        "blank": 230,
+        "nFiles": 14
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 2,
+      "core_count": 2,
+      "core_list": [
+        "HTML",
+        "JavaScript"
+      ],
+      "list": [
+        "HTML",
+        "JavaScript"
+      ],
+      "breakdown": {
+        "HTML": {
+          "loc": 852,
+          "files": 1,
+          "pct": 50.59
+        },
+        "JavaScript": {
+          "loc": 832,
+          "files": 13,
+          "pct": 49.41
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 7756,
+      "lexical": 7690
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": true,
+      "sampled_files": 16,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {
+        "<6m": 16,
+        "6m-1yr": 0,
+        "1yr-2yr": 0,
+        ">2yr": 0
+      },
+      "median_age_months": 0.9
+    },
+    "secrets": {
+      "files_scanned": 13,
+      "findings_count": 1,
+      "findings": [
+        {
+          "file": "errors.js",
+          "path": "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/utils/errors.js",
+          "type": "Generic API Key"
+        }
+      ],
+      "clean": false,
+      "risk_level": "medium"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 6,
+      "files": 16,
+      "extensions": {
+        ".js": 13,
+        ".unknown": 2,
+        ".html": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.0904,
+      "confidence": "medium",
+      "signals": {
+        "uniformity": 0.6025,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 0.0,
+        "smoothness": 0.5572
+      },
+      "per_file_scores": {
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/server.js": 0.4758,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/AvailableModelsOnyourGroqkey.js": 0.0864,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/index.js": 0.5364,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/utils/lockManager.js": 0.2226,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/utils/logger.js": 0.0972,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/utils/generateId.js": 0.045,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/utils/errors.js": 0.1506,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/services/debateService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/services/fileService.js": 0.6,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/services/contextManager.js": 0.3138,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/services/groqService.js": 0.5238,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/config/env.js": 0.1428,
+        "/home/runner/work/code-repository-analyzer/code-repository-analyzer/cloned_repos/Ai-Playground/src/config/agents.js": 0.2748
+      }
+    },
+    "frameworks": {},
+    "runtime": [
+      "Node.js"
+    ],
+    "infrastructure": {
+      "databases": [],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "JavaScript": 29631,
+      "JSON": 5165,
+      "Markdown": 21206,
+      "HTML": 28850,
+      "Next.js (JavaScript)": 2244
+    },
+    "docs": {
+      "description": "A local, lightweight, and extensible **multi-agent AI debate orchestration engine** powered by Node.js and the **Groq API**.",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Mapped (.env file present)"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "Low",
+    "repo_rating": {
+      "rating": 1.76,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0667,
+        "dev_span_months": 0.025,
+        "contributors": 0.5,
+        "loc": 0.1684,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.02,
+    "stage2_seconds": 0.04,
+    "stage4_seconds": 0.2,
+    "stage5_seconds": 0.0,
+    "total_seconds": 4.72
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": false
+  },
+  "github_api": {
+    "available": false,
+    "reason": "401 {\"message\": \"Bad credentials\", \"documentation_url\": \"https://docs.github.com/rest\", \"status\": \"401\"}"
+  },
+  "full_report_snapshot": {
+    "repo_name": "Ai-Playground",
+    "is_git": true,
+    "license_type": null,
+    "first_commit_date": "2026-10-03",
+    "last_commit_date": "2026-10-12",
+    "loc_code": 1684,
+    "loc_comment": 156,
+    "loc_blank": 230,
+    "loc_files": 14,
+    "lang_count": 2,
+    "languages": "HTML | JavaScript",
+    "languages_frontend": "HTML | JavaScript",
+    "languages_backend": "",
+    "commits": 10,
+    "contributors": 2,
+    "all_contributors_count": 2,
+    "all_contributors": "Saini-Yogesh, Yogesh Saini",
+    "branch_count": 1,
+    "meaningful_commit_count": 10,
+    "development_span_months": 0.3,
+    "commits_per_month": "33.3 commits/mo",
+    "git_history_intact": true,
+    "tokens_llm": 7756,
+    "lexical_token": 7690,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "9.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Review Required (1)",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.76,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "JavaScript (52.5%) | HTML (47.5%)",
+    "frameworks_percentage_bytes(>5%)": "Next.js (100.0%)",
+    "total_time_seconds": 4.72,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": false,
+    "deployment_env": "",
+    "environment_variables": "Mapped (.env file present)",
+    "stars": "N/A",
+    "forks": "N/A",
+    "watchers": "N/A",
+    "open_issues": "N/A",
+    "creation_date": "N/A",
+    "loc_verified": 1684,
+    "tokenizer_method": "N/A"
+  }
+}
